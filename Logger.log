@@ -1,0 +1,138 @@
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Path C:\Users\s.d.saravanan\Desktop\TestVZ\VoiceZone Automation\VoiceZone Automation
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) inputfile C:\Users\s.d.saravanan\Desktop\TestVZ\VoiceZone Automation\VoiceZone Automation\Input_Sheet.xls outputfile C:\Users\s.d.saravanan\Desktop\TestVZ\VoiceZone Automation\VoiceZone Automation\Test_Results\Results
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) total number of rows--------------->1
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Last_row 54
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) first_row 0
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1  IM variable 0 Apollo Input Sheet
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1  IM variable 1 
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1  IM variable 2 Select Environment : 
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 Grid IM variable 3 
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 No IM variable 4 http://voicezone.timewarnercable.com
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1  IM variable 5 
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1  IM variable 6 
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 Execute 
+(Y/N) IM variable 7 CHILD TEST CASE
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 N IM variable 8 CallBlockerSelect
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 N IM variable 9 CallBlockerBasicPlus
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 N IM variable 10 Nomorobo
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 N IM variable 11 CallBlockerAccept
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 N IM variable 12 OutBoundCallerid
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 Y IM variable 13 VoiceToText
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) first_tc: 13
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Getting inside
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) CallBlockerBasicPlus is called
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Getting inside
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Nomorobo is called
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Getting inside
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) OutBoundCallerid is called
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Getting inside
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) CallBlockerSelect is called
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Getting inside
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) CallBlockerAccept is called
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Getting inside
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) VoicetotoText is called
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser and excel location of test1  is  and 13
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) GRID IS NOT In MAIN!
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:)  Test_called value inside validation1
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) ^^^^^^^^^^^ Br  and loc value validation is ^^^^^^^^^chrome 13
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) ro[0] is10
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) ro[1] is10
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) validation called
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) testcalled value iz : 1
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) firstpage true
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) locvalue iz: 13
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) validation called3
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Merging of heading part done now
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check1
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check2
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check3
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check4
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check5
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check6
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check7
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check8
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Sep1---> number of rows 54
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_b
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_a
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Grid status NA
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) br valueis^^^^^^^^^:chrome
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_C
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) exec1 Y loc 13
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) 13
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_a
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Grid status No
+12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) br valueis^^^^^^^^^:chrome
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_C
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) exec1 Y loc 13
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_d
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_f
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Starting execution!!
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> Nomorobo
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 10
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> NotifybyEmail
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 14
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> NotifybyText
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 15
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> PinSkip
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 17
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> PinChange
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 16
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> CallBlockerSelect
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 8
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> CallBlockerAccept
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 11
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> VoiceToText
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 13
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) got inside
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Obj run is called
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser has already been closed
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) set up is called
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) set up is called
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) name1 in setup VoiceToText
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Grid is NO and inside setup 13
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Grid is NO and inside setup
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Grid_Status No br chrome
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) http://voicezone.timewarnercable.com
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) went inside chrome
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) i went inside this loop of chrome
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) last loop of chrome
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Current dir : C:\Users\s.d.saravanan\Desktop\TestVZ\VoiceZone Automation\VoiceZone Automation
+12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) spath is ---C:\\Users\\s.d.saravanan\\Desktop\\TestVZ\\VoiceZone Automation\\VoiceZone Automation\Resource\Browser_Drivers
+12-28-2017 13:46:01  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Before grid remote
+12-28-2017 13:46:01  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) helo
+12-28-2017 13:46:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Just reached end of setup
+12-28-2017 13:46:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) qtest1
+12-28-2017 13:46:41  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) a
+12-28-2017 13:47:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsFail
+12-28-2017 13:47:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 11br chrome
+12-28-2017 13:47:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) _December 28_01.47PM

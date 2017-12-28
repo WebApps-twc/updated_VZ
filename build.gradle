@@ -1,0 +1,78 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+ 
+version = '1.0'
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+
+
+//create a single Jar with all dependencies
+
+task fatJar(type: Jar) {
+	manifest {
+		attributes "Implementation-Title": "Gradle Jar File Example"
+			attributes  "Implementation-Version": version
+			attributes  "Main-Class": 'org.testng.TestNG'
+
+
+	}
+	baseName = 'dependent_files'
+	from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+	with jar
+			exclude 'META-INF/MANIFEST.MF'
+			exclude 'META-INF/*.SF'
+			exclude 'META-INF/*.DSA'
+			exclude 'META-INF/*.RSA'
+}
+
+
+test() {
+useTestNG() {
+ suiteXmlFiles << new File(rootDir, "testng.xml") //This is how to add custom testng.xml
+ 
+}
+}
+
+//Get dependencies from Maven central repository
+repositories {
+	mavenCentral()
+	
+	
+}
+
+sourceSets {
+  main {
+	runtimeClasspath = files(output.resourcesDir) + runtimeClasspath
+  }
+  test {
+	runtimeClasspath = files(output.resourcesDir) + runtimeClasspath
+  }
+}
+
+//Project dependencies
+dependencies {
+	compile (
+
+
+
+	['org.seleniumhq.selenium:selenium-server:3.+'],
+	['org.slf4j:slf4j-api:1.7.9'],
+	['log4j:log4j:1.+'],
+	['junit:junit:4.12'],
+	['org.testng:testng:6.+'],
+	['org.slf4j:slf4j-log4j12:1.7.10'],
+	['net.sourceforge.jexcelapi:jxl:2.6.12'],
+    ['org.apache.poi:poi:3.+'],
+	['org.jfree:jfreechart:1.+']
+
+	
+	)
+	
+	
+}
+
+task wrapper(type: Wrapper) {
+  description = 'Install Gradle wrapper'
+  gradleVersion = '1.9'
+}

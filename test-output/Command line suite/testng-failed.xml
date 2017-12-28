@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="Voicezone.Main_Function"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Voicezone.Main_Function">
+        <methods>
+          <include name="OutBoundCallerid" invocation-numbers="0"/>
+          <include name="VoicemailTranscription" invocation-numbers="0"/>
+          <include name="CallBlockerBasicPlus" invocation-numbers="0"/>
+          <include name="NotifybyText" invocation-numbers="0"/>
+          <include name="SpeedDial" invocation-numbers="0"/>
+          <include name="ThreeWayCalling" invocation-numbers="0"/>
+          <include name="CallForwardingNoAnswer" invocation-numbers="0"/>
+          <include name="CallForwardingUnconditional" invocation-numbers="0"/>
+          <include name="NotifybyEmail" invocation-numbers="0"/>
+          <include name="CallBlockerSelect" invocation-numbers="0"/>
+          <include name="PinChange" invocation-numbers="0"/>
+          <include name="CallForwardingBusy" invocation-numbers="0"/>
+          <include name="CallWaiting" invocation-numbers="0"/>
+          <include name="SelectiveCallForwarding" invocation-numbers="0"/>
+          <include name="PinSkip" invocation-numbers="0"/>
+          <include name="SelectiveCallAcceptance" invocation-numbers="0"/>
+          <include name="Nomorobo" invocation-numbers="0"/>
+          <include name="Reader"/>
+          <include name="AnswerAnywhere" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Voicezone.Main_Function -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
