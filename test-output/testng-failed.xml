@@ -6,9 +6,9 @@
       <class name="Voicezone.Main_Function">
         <methods>
           <include name="OutBoundCallerid" invocation-numbers="0"/>
+          <include name="VoicemailTranscription" invocation-numbers="0"/>
           <include name="CallBlockerBasicPlus" invocation-numbers="0"/>
           <include name="NotifybyText" invocation-numbers="0"/>
-          <include name="SpeedDial" invocation-numbers="0"/>
           <include name="ThreeWayCalling" invocation-numbers="0"/>
           <include name="CallForwardingNoAnswer" invocation-numbers="0"/>
           <include name="CallForwardingUnconditional" invocation-numbers="0"/>
