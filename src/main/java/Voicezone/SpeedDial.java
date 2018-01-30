@@ -57,7 +57,8 @@ public class SpeedDial extends CommonFunctions
                   Thread.sleep(30000);
                   System.out.println("line 58");
                       for(int i=2;i<=9;i++)
-                       {     focusClick(driver, driver.findElement(By.id("DeleteNumber_"+i)),br);
+                       {  Thread.sleep(2000); 
+                    	  focusClick(driver, driver.findElement(By.id("DeleteNumber_"+i)),br);
                             
                             //do{
 //                          }while(selenium.isElementPresent("//body/div[10]"));
@@ -101,6 +102,7 @@ for(int i=2;i<=9;i++)
            tns[i]=tn;
            }   
  System.out.println("print");
+ Thread.sleep(3000);
 focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);
 Thread.sleep(1000);
            schk=orderprocess(driver,br);; 
@@ -279,85 +281,128 @@ statusTracker(br,"Pass","Verify if all TNs are in the same order after order pro
         {
         statusTracker(br,"Pass","Verify if the TN is completely entered into the field","TN is present in the field as expected","TN should be present in the field");
         schk="Pass";
-          }
-          else
+        }
+        else
+        {
+        statusTracker(br,"Fail","Verify if the TN is completely entered into the field","TN is not present in the field as expected. Actual TN: "+txt +" Expected TN: "+tn,"TN should be present in the field");
+        schk="Fail";
+        }
+       
+        
+        
+      /*  boolean errmesg= driver.findElement(By.cssSelector("span.help-block.error")).isDisplayed();
+        System.out.println("error"+errmesg);      
+        	if(errmesg)
+            {
+                            statusTracker(br,"Pass","Verify if error message is displayed when adding "+check+" TN","Error message is displayed: "+ driver.findElement(By.cssSelector("span.help-block.error")).getText(),"Error message should be displayed");
+                            schk="Pass";
+            }
+            else
+            {
+                            statusTracker(br,"Fail","Verify if error message is displayed when adding "+check+" TN","Error message is not displayed","Error message should be displayed!!");
+                            schk="Fail";
+            }
+            	
+        	*/
+        	
+        	
+        	
+        	
+        	
+        	
+        	
+        	
+        	
+          if(schk.equals("Pass"))
           {
-             statusTracker(br,"Fail","Verify if the TN is completely entered into the field","TN is not present in the field as expected. Actual TN: "+txt +" Expected TN: "+tn,"TN should be present in the field");
-             schk="Fail";
-           }
-                  
-       // if(driver.findElement(By.cssSelector("span.help-block.error")).isDisplayed()) 
-                   if(schk.equals("Pass"))
-                  {
-                 focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);
-                 //Thread.sleep(30000);
+        	     Thread.sleep(3000);
+                // focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);
                  System.out.println("Waiting");
                 // schk=orderprocess(driver,br);;
                  
                //   if(driver.findElement(By.cssSelector("span.help-block.error")).isDisplayed()) 
                   if(schk.equals("Fail"))
                   {
-                   if(!(check.equals("invalid")))
-                       {
-                      statusTracker(br,"Fail","Verify if error message is displayed when adding "+check+" TN","Error message is displayed when adding TN: "+tn,"Error message should not be displayed");
+                       if(!(check.equals("invalid")))
+                        {
+                        statusTracker(br,"Fail","Verify if error message is displayed when adding "+check+" TN","Error message is displayed when adding TN: "+tn,"Error message should not be displayed");
                        // schk="Fail";
-                       }
-                   else
-                         {
+                        }
+                        else
+                        {
                       statusTracker(br,"Pass","Verify if error message is displayed when adding "+check+" TN","Error message is displayed when adding TN: "+tn,"Error message should be displayed");
                     //  schk="Pass";
-                    }
+                        }
                   }
-                 else
+                  
+                  
+                  
+                  else
                  {
-             if(!(check.equals("invalid")))
-               {
-               statusTracker(br,"Pass","Verify if error message is displayed when adding "+check+" TN","Error message is not displayed when adding TN: "+tn,"Error message should not be displayed.");
+                       if(!(check.equals("invalid")))
+                       {
+                       statusTracker(br,"Pass","Verify if error message is displayed when adding "+check+" TN","Error message is not displayed when adding TN: "+tn,"Error message should not be displayed.");
                // schk="Pass";
-               }
-              else
-              {
-                statusTracker(br,"Fail","Verify if error message is displayed when adding "+check+" TN","Error message is displayed when adding TN: "+tn,"Error message should not be displayed");
-               //  schk="Pass";*/
-                   }
+                       }
+                       else
+                       {
+                       statusTracker(br,"Fail","Verify if error message is displayed when adding "+check+" TN","Error message is displayed when adding TN: "+tn,"Error message should not be displayed");
+               //  schk="Pass";
+                       
+                       }
                  }
-                 driver.findElement(By.id("DeleteNumber_"+2)).click();
-                 Thread.sleep(150000);
+                  Thread.sleep(5000);
+                  focusClick(driver,driver.findElement(By.id("DeleteNumber_"+2)),br);
+                  Thread.sleep(2000);
                  
            //do{
 //            }while(selenium.isElementPresent("//body/div[10]"));
-             }
+          }   
                   
        return schk;
   }
   
   public String TNValidation(String br,WebDriver driver) throws Exception
   {
-                                                                                System.out.println("TN Validation method started");
+                  System.out.println("TN Validation method started");
                   String schk ="Pass";
                   String add=randomNO(999,100);
                   schk=TNcheck(br,driver,"10"+add,"10XXX");  
                   System.out.println("TNCheck1");
+                 
+                  Thread.sleep(2000);
                   add=randomNO(999,100);
                   schk=TNcheck(br,driver,"1010"+add,"1010XXX");
                   System.out.println("TNCheck2");
+                  
+                  Thread.sleep(2000);
                   add=randomNO(99,10);
                   schk=TNcheck(br,driver,"*"+add,"*XX");
                   System.out.println("TNCheck3");
+                  
+                  Thread.sleep(2000);
                   add=randomNO(99,10);
                   schk=TNcheck(br,driver,"11"+add,"*XX");
                   System.out.println("TNCheck4");
                   //add=randomNO(99,10);
                   //schk=TNcheck(add+"#","XX#");
+                  
+                  Thread.sleep(2000);
                   add=randomNO(9,1);
                   schk=TNcheck(br,driver,add+"11","X11");
                   System.out.println("TNCheck5");
+                 
+                  Thread.sleep(2000);
                   add=randomNO(9999999,1000000);
                   schk=TNcheck(br,driver,add,"7 digit");
                   System.out.println("TNCheck6");
+                  
+                  Thread.sleep(2000);
                   add=randomNO(9999999,1000000);
                   schk=TNcheck(br,driver,"1"+add,"1 + 7 digit");
                   System.out.println("TNCheck7");
+                  
+                  Thread.sleep(2000);
                   //add=randomNO(9999999999,1000000);
                   String ac = randomNO(999,200);
                   String midtn = randomNO(999,200);
@@ -365,8 +410,12 @@ statusTracker(br,"Pass","Verify if all TNs are in the same order after order pro
                   add=ac+midtn+lastfour;
                   schk=TNcheck(br,driver,"1"+add,"1 + 10 digit");
                   System.out.println("TNCheck8");
+                  
+                  Thread.sleep(2000);
                   schk=TNcheck(br,driver,"0","zero");
                   System.out.println("TNCheck9");
+                  
+                  Thread.sleep(2000);
                   String firstfive =randomNO(99999,20000);
                   ac = randomNO(999,200);
                   midtn = randomNO(999,200);
@@ -374,6 +423,8 @@ statusTracker(br,"Pass","Verify if all TNs are in the same order after order pro
                   add=firstfive+ac+midtn+lastfour;
                   schk=TNcheck(br,driver,"01"+add,"01 + 7 to 15 digits");
                   System.out.println("TNCheck10");
+                  
+                  Thread.sleep(2000);
                   firstfive =randomNO(99999,20000);
                   ac = randomNO(999,200);
                   midtn = randomNO(999,200);
@@ -381,10 +432,14 @@ statusTracker(br,"Pass","Verify if all TNs are in the same order after order pro
                   add=firstfive+ac+midtn+lastfour;
                   schk=TNcheck(br,driver,"011"+add,"011 + 7 to 15 digits");
                   System.out.println("TNCheck11");
+                  
+                  Thread.sleep(2000);
                   driver.findElement(By.id("txtPhoneNumber"+2)).clear();
                   schk=TNcheck(br,driver,"1"+add,"Number");
                   System.out.println("TNCheck12");
-                  Thread.sleep(1000);
+                  
+                  
+                  Thread.sleep(2000);
                   schk="Pass";
                   System.out.println("TN Validation method ended");
                   return schk;
@@ -405,7 +460,7 @@ statusTracker(br,"Pass","Verify if all TNs are in the same order after order pro
       pwd = sheet2.getCell(7, loc).getContents();
    
       tlim = Integer.parseInt(tlimit);
-      wb.close();
+    //  wb.close();
 
    driver.manage().timeouts().implicitlyWait(tlim,TimeUnit.SECONDS); 
                           //TimeUnit.SECONDS);
@@ -417,8 +472,18 @@ statusTracker(br,"Pass","Verify if all TNs are in the same order after order pro
           {
                 login(driver,username,pwd);
           }
-         
+         logger.info("a");
+         Thread.sleep(10000);
          focusClick(driver, driver.findElement(By.linkText("Settings")),br);
+       	int chk=0;
+   	      do{
+   	           Thread.sleep(1000);       
+   	          chk++;
+   	          System.out.println(chk);
+   	                }
+   	      while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
+   	      Thread.sleep(5000);
+        // focusClick(driver, driver.findElement(By.linkText("Settings")),br);
          focusClick(driver, driver.findElement(By.xpath("(//a[contains(text(),'(edit)')])[8]")),br);
          System.out.println("clicking Settings link");  
                   String schk="Pass"; 
@@ -427,7 +492,6 @@ statusTracker(br,"Pass","Verify if all TNs are in the same order after order pro
                
            
           if(schk.equals("Pass"))
-            
                 schk=deleteall(br,driver);
             
             else
@@ -436,23 +500,27 @@ statusTracker(br,"Pass","Verify if all TNs are in the same order after order pro
             System.out.println("deleting");
             
          statusTracker(br,"","Verify Adding Tns","","");
-          if(schk.equals("Pass"))
+         
+         if(schk.equals("Pass"))
             schk=flowrunadd(br,driver,"adding");
           else
             statusTracker(br,"Fail","Verify adding the TNs from the list","Order process was not done successfull after adding all the orders","Order process should be successfull");
-          System.out.println("Adding");       
+         
+         System.out.println("Adding");       
             
                statusTracker(br,"","Verify Deleting Tns","","");
-         if(schk.equals("Pass"))
+        
+               if(schk.equals("Pass"))
               schk=flowrundelete(br,driver);
-         else
+              else
                  statusTracker(br,"Fail","Verify deleting TNs from the list","Order process was not done successfully after deleting","Order process should be successfull");
                                                 
               statusTracker(br,"","Verify Tn Validation","","");
                                                 
                if(schk.equals("Pass"))
-              schk=TNValidation(br,driver); 
-                                                
+               schk=TNValidation(br,driver); 
+               
+               Thread.sleep(5000);                                 
                focusClick(driver,driver.findElement(By.id("mainCancelButton")),br);                                    
                  
         first=1;      

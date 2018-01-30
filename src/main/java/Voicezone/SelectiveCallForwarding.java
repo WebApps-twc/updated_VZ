@@ -256,6 +256,7 @@ public class SelectiveCallForwarding extends CommonFunctions {
 			  tn=driver.findElement(By.xpath("//html/body/div[3]/form/div/div[3]/div[2]/div/div/div/div/div[4]/div/div[2]/div[3]/table/tbody/tr["+i+"]/td/input")).getAttribute("value");
 			  
 			  System.out.println("tn"+tn);
+			  Thread.sleep(3000);
 			  //selenium.click("//*[@id='DeleteNumber_"+ tn + "']");
 			  focusClick(driver,driver.findElement(By.id("DeleteNumber_"+ tn)),br);
 			  
@@ -433,15 +434,13 @@ public class SelectiveCallForwarding extends CommonFunctions {
 	  String tn;
 	  int count;
 	  
-//	  TN=TN+lastfour;
+
 	  int limit =driver.findElements(By.xpath("//html/body/div[3]/form/div/div[3]/div[2]/div/div/div/div/div[4]/div/div[2]/div[3]/table/tbody/tr")).size();		
 	  
 	  do{
 		  ac=randomNO(999,200);
-		  if(ac.equals("900") || ac.equals("976"))
-			  ac=randomNO(999,200);
 		  midtn=randomNO(999,200);
-		  //String midtn="345";
+	
 		  lastfour= randomNO(9999,1000);
 	  
 		  driver.findElement(By.id("txtAreaCode")).sendKeys(ac);
@@ -449,7 +448,7 @@ public class SelectiveCallForwarding extends CommonFunctions {
 		  driver.findElement(By.id("txtTelNum")).sendKeys(lastfour);
 
 		  //System.out.println(selenium.getXpathCount("//*[@id='TNGridRefresh']/div"));
-		  //Thread.sleep(1000);
+		  Thread.sleep(5000);
 		  focusClick(driver,driver.findElement(By.id("AddToPhoneNumbers")),br);		
 		  
 		  tn=ac+midtn+lastfour;
@@ -462,7 +461,7 @@ public class SelectiveCallForwarding extends CommonFunctions {
 		  int chk=0;
 		  for(int i=1;i<=count;i++)
 		  {
-			  
+			  Thread.sleep(3000);
 			  //System.out.println(selenium.getValue("//html/body/div/section/form/div[2]/div/div/div["+(i+1)+"]/table/tbody/tr/td//input"));
 			  //selenium.getValue("//html/body/div[3]/form/div/div[3]/div[2]/div/div/div[3]/div/div/div[3]/table/tbody/tr["+i+"]/td//input");
 			  System.out.println(driver.findElement(By.xpath("//html/body/div[3]/form/div/div[3]/div[2]/div/div/div/div/div[4]/div/div[2]/div[3]/table/tbody/tr["+i+"]/td/input")).getText());
@@ -496,7 +495,7 @@ public class SelectiveCallForwarding extends CommonFunctions {
 		  driver.findElement(By.id("txtTelNum")).sendKeys(lastfour);
 
 		  //System.out.println(selenium.getXpathCount("//*[@id='TNGridRefresh']/div"));
-		  Thread.sleep(1000);
+		  Thread.sleep(2000);
 		  focusClick(driver,driver.findElement(By.id("AddToPhoneNumbers")),br);
 		  
 		  tn=ac+midtn+lastfour;
@@ -516,7 +515,7 @@ public class SelectiveCallForwarding extends CommonFunctions {
 	  }
 	  
 	  if(schk.equals("Pass"))
-	  {
+	  {   Thread.sleep(2000);
 		  focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);
 		  
 		  schk=orderprocess(driver,br);
@@ -695,15 +694,20 @@ public class SelectiveCallForwarding extends CommonFunctions {
 	  Thread.sleep(5000);
 	  schk=TNcheck(driver,"","","","blank",br);
 	  Thread.sleep(5000);
-	  schk=TNcheck(driver,ac1,midtn1,lastfour1,"existing",br);
-	  Thread.sleep(5000);
+	//  schk=TNcheck(driver,ac1,midtn1,lastfour1,"existing",br);
+	//  Thread.sleep(5000);
 	  schk=TNcheck(driver,"99","9","99","Invalid",br);
+	
 	  Thread.sleep(5000);
-	  schk=TNcheck(driver,phoneline_ac,phoneline_midtn,phoneline_lastfour,"self",br);
+	  focusClick(driver,driver.findElement(By.id("mainCancelButton")),br);
 	  Thread.sleep(5000);
-	  //schk=TNcheck(driver,"984","985","9849","same as To");
+	  schk="Pass";
+	  return schk;
+	 /* schk=TNcheck(driver,phoneline_ac,phoneline_midtn,phoneline_lastfour,"self",br);
+	  Thread.sleep(5000);
+	  schk=TNcheck(driver,"984","985","9849","same as To");
 	  
-	  /*String tns[]=SCAcheck();
+	  String tns[]=SCAcheck();
 	  if(!(tns[0].equals(0)))
 	  {
 		  String tn= randomNO(Integer.parseInt(tns[0]),1);
@@ -711,8 +715,7 @@ public class SelectiveCallForwarding extends CommonFunctions {
 		  schk=TNcheck(tns[Integer.parseInt(tn)].substring(0,3),tns[Integer.parseInt(tn)].substring(3,6),tns[Integer.parseInt(tn)].substring(6),"a Selective Call Acceptance");
 	  }*/
 	  
-	  schk="Pass";
-	  return schk;
+	  
   }
   
   public String TNcheck2(WebDriver driver,String ac, String midtn, String lastfour, String check,String br) throws Exception
@@ -722,7 +725,7 @@ public class SelectiveCallForwarding extends CommonFunctions {
 	  if(check.equals("no dropdown"))
       {
 		  focusClick(driver,driver.findElement(By.id("SCFStatusdrop")),br);
-     	  Thread.sleep(1000);
+     	  Thread.sleep(3000);
       }
 	  else
 	  {
@@ -736,12 +739,11 @@ public class SelectiveCallForwarding extends CommonFunctions {
 		  driver.findElement(By.id("txtTelNum2")).sendKeys(lastfour);
 		  Thread.sleep(1000);
 	  }
+	  Thread.sleep(5000);
 	  focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);	
 	  tn=ac+midtn+lastfour;
-	  //do{
-	  //}while(selenium.isElementPresent("//body/div[10]"));
-	  drive.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
-	  
+	
+	  Thread.sleep(3000);
 	  boolean errmesg= driver.findElement(By.cssSelector("span.help-block.error")).isDisplayed();
       System.out.println("error"+errmesg);
 	  if(errmesg)
@@ -755,7 +757,7 @@ public class SelectiveCallForwarding extends CommonFunctions {
 		  schk="Fail";
 	  }
 	                                                  
-	  focusClick(driver,driver.findElement(By.xpath("//html/body/div[3]/form/div/div[3]/div[2]/div/div/div/div/div[4]/div[1]/div[1]/div[2]/span/span[2]/a")),br);
+	/*  focusClick(driver,driver.findElement(By.xpath("//html/body/div[3]/form/div/div[3]/div[2]/div/div/div/div/div[4]/div[1]/div[1]/div[2]/span/span[2]/a")),br);
 	  do{
     	  Thread.sleep(1000);
       }while(!(drive.findElement(By.xpath("//body/div[11]")).isDisplayed()));
@@ -772,7 +774,7 @@ public class SelectiveCallForwarding extends CommonFunctions {
              statusTracker(br,"Fail","Verify if error message is displayed on clicking the friendly icon when adding "+check+" TN","Error message is not displayed","Error message should be displayed");
              schk="Fail";
              focusClick(driver,driver.findElement(By.cssSelector("div.modal-footer > button.btn.btn-primary")),br);
-      }      
+      }  */    
 	  
 	  return schk;
   }
@@ -787,17 +789,31 @@ public class SelectiveCallForwarding extends CommonFunctions {
 			
 	  String schk ="Pass";
 	  schk=TNcheck2(driver,"022","300","4000","first digit 0",br);
+	  Thread.sleep(5000);
 	  schk=TNcheck2(driver,"222","000","4000","fourth digit 0",br);
+	  Thread.sleep(5000);
 	  schk=TNcheck2(driver,"122","300","4000","first digit 1",br);
+	  Thread.sleep(5000);
 	  schk=TNcheck2(driver,"222","152","4000","fourth digit 1",br);
+	  Thread.sleep(5000);
 	  schk=TNcheck2(driver,"900","800","4000","toll free",br);
+	  Thread.sleep(5000);
 	  schk=TNcheck2(driver,"976","800","4000","toll free",br);
+	  Thread.sleep(5000);
 	  schk=TNcheck2(driver,"","","","blank",br);
+	  Thread.sleep(5000);
 	  schk=TNcheck2(driver,"99","9","99","Invalid",br);
-	  schk=TNcheck2(driver,phoneline_ac,phoneline_midtn,phoneline_lastfour,"self",br);
-	  schk=TNcheck2(driver,ac1,midtn1,lastfour1,"same as From",br);
+	  Thread.sleep(5000);
 	  schk=TNcheck2(driver,"","","","no dropdown",br);
-	  
+	  Thread.sleep(5000);
+	  focusClick(driver,driver.findElement(By.id("mainCancelButton")),br);
+	  Thread.sleep(5000);
+	  schk="Pass";
+	  return schk;
+	 
+	//  schk=TNcheck2(driver,phoneline_ac,phoneline_midtn,phoneline_lastfour,"self",br);
+	//  schk=TNcheck2(driver,ac1,midtn1,lastfour1,"same as From",br);
+
 	  /*String tns[]=SCAcheck();
 	  if(!(tns[0].equals(0)))
 	  {
@@ -806,8 +822,7 @@ public class SelectiveCallForwarding extends CommonFunctions {
 		  schk=TNcheck(tns[Integer.parseInt(tn)].substring(0,3),tns[Integer.parseInt(tn)].substring(3,6),tns[Integer.parseInt(tn)].substring(6),"a Selective Call Acceptance");
 	  }*/
 	  
-	  schk="Pass";
-	  return schk;
+	 
   }
   
   public String randomNO(int max, int min)
@@ -838,7 +853,7 @@ public class SelectiveCallForwarding extends CommonFunctions {
                       username = sheet2.getCell(6, loc).getContents();
                       pwd = sheet2.getCell(7, loc).getContents();
                       tlim = Integer.parseInt(tlimit);
-                      wb.close();
+                     // wb.close();
 
                       driver.manage().timeouts().implicitlyWait(tlim,TimeUnit.SECONDS);
                       logger.info("qtest1");
@@ -847,18 +862,20 @@ public class SelectiveCallForwarding extends CommonFunctions {
                     	  {
                     		  login(driver,username,pwd);
                     	  }
+                    	  else
+                    	  {
+                    		  focusClick(driver,driver.findElement(By.id("settings-summary")),br); 
+                    	  }
                     	  logger.info("a");
-                    	  int chk=0;
-              		      do{
-              		           Thread.sleep(1000);       
-              		          chk++;
-              		          System.out.println(chk);
-              		                }
-              		      while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
-  	    
-                    	 // focusClick(driver,driver.findElement(By.linkText("Settings")),br);
-                    	  
-                    	  Thread.sleep(5000);
+                    	  Thread.sleep(10000);
+                        	int chk=0;
+                    	      do{
+                    	           Thread.sleep(1000);       
+                    	          chk++;
+                    	          System.out.println(chk);
+                    	                }
+                    	      while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
+                    	      Thread.sleep(5000);
                     	  focusClick(driver,driver.findElement(By.xpath("(//a[contains(text(),'(edit)')])[4]")),br);
   	      
                     	  Thread.sleep(5000);
@@ -959,13 +976,15 @@ public class SelectiveCallForwarding extends CommonFunctions {
 				statusTracker(br,"","Verify To TN Validation","","");
 				schk=TNValidation2(driver,br);
 			}
+			Thread.sleep(2000);
+			focusClick(driver,driver.findElement(By.id("mainCancelButton")),br);
 			
-			if(schk.equals("Pass"))
+			/*if(schk.equals("Pass"))
 			{
 				statusTracker(br,"","Verify maximum TN operations","","");
 				schk=flowrunmaxtn(driver,br);
-			}
-			
+			}*/
+			Thread.sleep(2000);
 			focusClick(driver,driver.findElement(By.id("mainCancelButton")),br);
 			first=1;      
       }

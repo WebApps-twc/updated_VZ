@@ -44,15 +44,17 @@ public CallBlockerSelect(String path)
       {
                       from = "Enabled";
                       to="Disabled";
-                      focusClick(driver,driver.findElement(By.xpath(".//*[@id='callBlockerOff']")),br);
+                      Thread.sleep(5000);
+                      focusClick(driver,driver.findElement(By.id("callBlockerOff")),br);
       }
       else if (!(status))
       {
          from = "Disabled";
          to="Enabled";
+         Thread.sleep(5000);
          focusClick(driver,driver.findElement(By.id("callBlockerOn")),br);
       }
-
+      Thread.sleep(5000);
       focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);
                                 String schk=orderprocess(driver,br);
                   //OMG
@@ -80,7 +82,8 @@ private Object isElementPresent(WebElement findElement) {
 
 public String flowrun1(WebDriver driver,String br) throws Exception
   {
-                  String schk ="Fail";
+    System.out.println("Flow run1 Started");              
+	String schk ="Fail";
                   
                   
                   String ac;
@@ -99,18 +102,19 @@ public String flowrun1(WebDriver driver,String br) throws Exception
                   driver.findElement(By.id("txtExchange")).sendKeys(midtn);
                   driver.findElement(By.id("txtTelNum")).sendKeys(lastfour);
                 // System.out.println(selenium.getXpathCount("//*[@id='TNGridRefresh']/div"));
-                  Thread.sleep(2000);
+                  Thread.sleep(5000);
                   focusClick(driver,driver.findElement(By.id("AddToPhoneNumbers")),br);
                   
                   tn=ac+midtn+lastfour;
 
-                  Thread.sleep(2000);
+                  Thread.sleep(5000);
 
                   count =driver.findElements(By.xpath("//table[@id='PhoneNumberGridTable']/tbody/tr")).size();
                   System.out.println("tns present: " +count);
                   int chk=0;
                   for(int i=1;i<=count;i++)
                   {
+                	  Thread.sleep(8000);
                 	  String a=driver.findElement(By.xpath("//table[@id='PhoneNumberGridTable']/tbody/tr["+i+"]/td/input")).getAttribute("value");                     
                                   //System.out.println(selenium.getValue("//html/body/div/section/form/div[2]/div/div["+(i+1)+"]/table/tbody/tr/td//input"));
                                   if(a.equals(tn))
@@ -128,6 +132,7 @@ public String flowrun1(WebDriver driver,String br) throws Exception
                   }
                   if(schk.equals("Pass"))
                   {
+                	  Thread.sleep(5000);
                 	  focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);
                                   schk=orderprocess(driver,br);
                                   boolean chk1=false;
@@ -161,9 +166,10 @@ public String flowrun1(WebDriver driver,String br) throws Exception
                                                   schk="Fail";
                                   }
                   }
-             
+                  driver.navigate().refresh();
                   if(schk.equals("Pass"))
-                  {
+                  {  
+                	  Thread.sleep(5000);
                 	  focusClick(driver,driver.findElement(By.id("DeleteNumber_"+ tn )),br);
 
                                   Thread.sleep(5000);
@@ -188,11 +194,11 @@ public String flowrun1(WebDriver driver,String br) throws Exception
                                                   }
                                                   if(!(chk2))
                                                   {
-                                                                  statusTracker(br,"Pass","Verify if TN is not displayed after order process","TN is not displayed after order process","TN is not displayed after order process");  
+                                                                  statusTracker(br,"Pass","Verify if TN is not displayed after Deleting","TN is not displayed after Deleting ","TN is not displayed after Deleting");  
                                                   }
                                                   else
                                                   {
-                                                                  statusTracker(br,"Fail","Verify if TN is not displayed after order process","TN is displayed after order process","TN is not displayed after order process");
+                                                                  statusTracker(br,"Fail","Verify if TN is not displayed after Deleting","TN is displayed after Deleting ","TN is not displayed after Deleting");
                                                                   schk="Fail";
                                                   }
                                   }
@@ -204,6 +210,7 @@ public String flowrun1(WebDriver driver,String br) throws Exception
                                   
                                   
                   }
+                  System.out.println("Flow run1 Complete");  
                   
                   return schk;
   }
@@ -226,9 +233,10 @@ public String deleteall(WebDriver driver,String br)  throws Exception
                   {
                                   for(int i=1;i<=count;i++)
                                   {
-                                                  
+                                       Thread.sleep(2000);           
                                 	  tn=driver.findElement(By.xpath("//table[@id='PhoneNumberGridTable']/tbody/tr["+i+"]/td/input")).getAttribute("value");
                                       System.out.println(tn);
+                                      Thread.sleep(5000);
                                       //selenium.click("//*[@id='DeleteNumber_"+ tn + "']");
                                       focusClick(driver,driver.findElement(By.id("DeleteNumber_"+ tn )),br);
                                       Thread.sleep(2000);
@@ -243,12 +251,14 @@ public String deleteall(WebDriver driver,String br)  throws Exception
                                   boolean status = driver.findElement(By.id("callBlockerOn")).isSelected();
                                   if(!(status))
                                   {
+                                	  Thread.sleep(5000);
                                 	  focusClick(driver,driver.findElement(By.id("callBlockerOn")),br);
                                   }
-  
+                                  Thread.sleep(5000);
                                   focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);
-                                  Thread.sleep(2000);
+                                  Thread.sleep(5000);
                                   //schk=orderprocess("span.help-block.error");
+                                 
                                   if(driver.findElement(By.cssSelector("span.help-block.error")).isDisplayed())
                                   {
                                    statusTracker(br,"Pass","Verify if error message is displayed when trying to enable feature with no TNs","Error message is displayed: " +driver.findElement(By.cssSelector("span.help-block.error")).getText(),"Error message should be displayed");
@@ -270,10 +280,10 @@ public String deleteall(WebDriver driver,String br)  throws Exception
                                   driver.findElement(By.id("txtAreaCode")).sendKeys(ac1);
                                   driver.findElement(By.id("txtExchange")).sendKeys(midtn1);
                                   driver.findElement(By.id("txtTelNum")).sendKeys(lastfour1);
-                                  Thread.sleep(1000);
+                                  Thread.sleep(2000);
                                   focusClick(driver,driver.findElement(By.id("AddToPhoneNumbers")),br);
 
-                                  Thread.sleep(2000);
+                                  Thread.sleep(5000);
                                   
                                   focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);
                                   schk=orderprocess(driver,br);
@@ -333,6 +343,10 @@ public String flowrunmaxtn(WebDriver driver,String br) throws Exception
                                                   schk="Pass";
                                   }
                   }
+                  Thread.sleep(5000);
+            	  focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);
+            	  driver.navigate().refresh();
+            	  Thread.sleep(5000);
                   if(chk==0)
                   {
                                                 statusTracker(br,"Fail","Verify if added TN is present in the list","Added TN is not present in the list. Total Tns present "+count,"Added TN should be present in the list");
@@ -419,7 +433,7 @@ public String flowrunmaxtn(WebDriver driver,String br) throws Exception
          driver.findElement(By.id("txtExchange")).sendKeys(midtn);
          driver.findElement(By.id("txtTelNum")).clear();
          driver.findElement(By.id("txtTelNum")).sendKeys(lastfour);
-        
+        Thread.sleep(3000);
          focusClick(driver,driver.findElement(By.id("AddToPhoneNumbers")),br);
          Thread.sleep(5000);
          tn=ac+midtn+lastfour;
@@ -463,8 +477,8 @@ public String flowrunmaxtn(WebDriver driver,String br) throws Exception
       Thread.sleep(5000);
       schk=TNcheck("","","","blank",driver,br);
       Thread.sleep(5000);
-      schk=TNcheck(ac1,midtn1,lastfour1,"existing",driver,br);
-      Thread.sleep(5000);
+   //   schk=TNcheck(ac1,midtn1,lastfour1,"existing",driver,br);
+   //   Thread.sleep(5000);
       schk=TNcheck("99","9","99","Invalid",driver,br);  
       Thread.sleep(5000);
       schk="Pass";
@@ -549,7 +563,7 @@ public String flowrunmaxtn(WebDriver driver,String br) throws Exception
 		  username = sheet2.getCell(6, loc).getContents();
 		  pwd = sheet2.getCell(7, loc).getContents();
 		  tlim = Integer.parseInt(tlimit);
-		  wb.close();
+		//  wb.close();
 
   driver.manage().timeouts().implicitlyWait(tlim,TimeUnit.SECONDS);
   logger.info("qtest1");
@@ -558,21 +572,22 @@ public String flowrunmaxtn(WebDriver driver,String br) throws Exception
 	  {
 		  login(driver,username,pwd);
 	  }
+	  else {
+		  focusClick(driver,driver.findElement(By.id("settings-summary")),br);  
+	  }
 	  logger.info("a");
-	  Thread.sleep(2000);
-
- // focusClick(driver,driver.findElement(By.linkText("Settings")),br);
-  int chk=0;
-  do{
-       Thread.sleep(1000);       
-      chk++;
-      System.out.println(chk);
-            }
-  while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
+     Thread.sleep(5000);
+     int chk=0;
+     do{
+          Thread.sleep(1000);       
+         chk++;
+         System.out.println(chk);
+               }
+     while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
+     Thread.sleep(5000);
   focusClick(driver,driver.findElement(By.xpath("(//a[contains(text(),'(edit)')])[1]")),br);
-
-                    
-                    boolean status =driver.findElement(By.id("callBlockerOn")).isSelected();
+  Thread.sleep(5000);        
+              boolean status =driver.findElement(By.id("callBlockerOn")).isSelected();
                                                     
                     String status1="off";
                     if(status)
@@ -581,15 +596,17 @@ public String flowrunmaxtn(WebDriver driver,String br) throws Exception
                     String schk="Pass"; 
                     
                     schk=deleteall(driver,br);
+                    Thread.sleep(5000);
                     
                     schk=flowrun(driver,br);
+                    Thread.sleep(5000);
                     
                    if(schk.equals("Pass"))
                         schk=flowrun(driver,br);
                     
                     if(schk.equals("Pass"))
                     {
-			            status = driver.findElement(By.id("Activated")).isSelected();
+			            status = driver.findElement(By.id("callBlockerOn")).isSelected();
 			            statusTracker(br,"","Verify TN add/remove when feature is "+status,"","");
 			            schk=flowrun1(driver,br);
                     }
@@ -600,7 +617,7 @@ public String flowrunmaxtn(WebDriver driver,String br) throws Exception
                     
                     if(schk.equals("Pass"))
                     {
-	                    status =driver.findElement(By.id("Activated")).isSelected();
+	                    status =driver.findElement(By.id("callBlockerOn")).isSelected();
 	                    statusTracker(br,"","Verify TN add/remove when feature is "+status,"","");
 	                    schk=flowrun1(driver,br);
                     }
@@ -611,12 +628,12 @@ public String flowrunmaxtn(WebDriver driver,String br) throws Exception
                         schk=TNValidation(driver,br);
                     }
                     
-                    if(schk.equals("Pass"))
+                   /* if(schk.equals("Pass"))
                     {
 	                    statusTracker(br,"","Verify maximum TN operations","","");
 	                    schk=flowrunmaxtn(driver,br);
                     }
-                    
+                    */
                     int count2=driver.findElements(By.xpath("//html/body/div[3]/form/div/div[3]/div[2]/div/div/div/div/div/div/div/div[5]/table/tbody//tr")).size();
                     logger.info("count2"+count2);
                     if(count2<1)
@@ -633,7 +650,7 @@ public String flowrunmaxtn(WebDriver driver,String br) throws Exception
                     Thread.sleep(1000);
                     focusClick(driver,driver.findElement(By.id("AddToPhoneNumbers")),br);
                     }
-                    
+                    Thread.sleep(5000);
                     focusClick(driver,driver.findElement(By.id("mainCancelButton")),br);
                     
                     first=1;      

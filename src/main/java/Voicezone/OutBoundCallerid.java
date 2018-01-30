@@ -31,9 +31,8 @@ public class OutBoundCallerid extends CommonFunctions {
                                 this.path = path;
                 }
    
-                public void execute(String br, WebDriver driver, String url, int loc, String name1) throws Exception {
-                    
-                   
+                public void execute(String br, WebDriver driver, String url, int loc, String name1) throws Exception 
+                {
                     int tlim=3;
                    
                     String state = "Fail";
@@ -48,7 +47,7 @@ public class OutBoundCallerid extends CommonFunctions {
             username = sheet2.getCell(6, loc).getContents();
             pwd = sheet2.getCell(7, loc).getContents();
             tlim = Integer.parseInt(tlimit);
-            wb.close();
+         //   wb.close();
         
             driver.manage().timeouts().implicitlyWait(tlim,TimeUnit.SECONDS);
             logger.info("qtest1");
@@ -57,20 +56,25 @@ public class OutBoundCallerid extends CommonFunctions {
                 {
                     login(driver,username,pwd);
                 }
+                    else
+                    {
+                    	 focusClick(driver,driver.findElement(By.id("settings-summary")),br); 
+                    }
                 logger.info("a");
                
 //                focusClick(driver, driver.findElement(By.linkText("Settings")),br);
-                int chk=0;
-                
-                
-                do {
-             	   Thread.sleep(1000);
-                chk++;
-                System.out.println(chk);
-        		} 
-                while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
+                Thread.sleep(10000);
+       
+              	int chk=0;
+          	      do{
+          	           Thread.sleep(1000);       
+          	          chk++;
+          	          System.out.println(chk);
+          	                }
+          	      while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
+          	      Thread.sleep(5000);
 //                while ((driver.findElements(By.xpath("//div[9]")).size() != 0));
-                Thread.sleep(1000);
+               
                 focusClick(driver, driver.findElement(By.xpath("(//a[contains(text(),'(edit)')])[1]")),br);
                 Thread.sleep(1000);
                 driver.findElement(By.xpath("//div[@id='ContentRefresh']/ul/li[5]/a")).click();
@@ -146,7 +150,7 @@ public class OutBoundCallerid extends CommonFunctions {
                              }
                        }      
               
-         
+              focusClick(driver,driver.findElement(By.id("mainCancelButton")),br);
               first=1;      
   }
                                                   

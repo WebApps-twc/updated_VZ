@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -48,11 +49,13 @@ public class DistinctiveRing extends CommonFunctions {
                   String schk="Fail";
                   if(status.equals(true))
                   {
+                	  Thread.sleep(5000);
                                   //System.out.println("Initial state: "+status);
                                   
                                   //focusClick(driver,driver.findElement(By.xpath("/html/body/div[3]/form/div/div[3]/div[2]/div/div/div[3]/div/div[1]/div[1]/p[1]/input[1]")),br);
-          focusClick(driver,driver.findElement(By.xpath("//*[@id=\"drActivated\"]")),br);
-                                  focusClick(driver,driver.findElement(By.name("mainSubmitButton")),br);
+          focusClick(driver,driver.findElement(By.id("drActivated")),br);
+          Thread.sleep(2000);
+                                  focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);
                                   System.out.println("Status changed to: "+status1);
                                   
                                   schk=orderprocess(driver,br);
@@ -70,23 +73,27 @@ public class DistinctiveRing extends CommonFunctions {
                                   //driver.findElement(By.id("Activated")).click();
                                   //Thread.sleep(1000);
                                   System.out.println("Initial state2: "+status);
+                                  Thread.sleep(5000);
                                   
                                                  // driver.findElement(By.id("Activated")).click();
                                                 //  Thread.sleep(1000);
-                                  focusClick(driver,driver.findElement(By.xpath("/html/body/div[3]/form/div/div[3]/div[2]/div/div/div[3]/div/div[1]/div[1]/p[1]/input[1]")),br);
+                                  focusClick(driver,driver.findElement(By.id("drActivated")),br);
+                                 // focusClick(driver,driver.findElement(By.xpath("/html/body/div[3]/form/div/div[3]/div[2]/div/div/div[3]/div/div[1]/div[1]/p[1]/input[1]")),br);
                                                   String ac=randomNO(999,200);
                                                   String midtn=randomNO(999,200);
                                                   //String midtn="345";
                                                   String lastfour= randomNO(9999,1000);
                                   
-                                                  driver.findElement(By.id("txtAreaCode")).clear();
+                          driver.findElement(By.id("txtAreaCode")).clear();
                           driver.findElement(By.id("txtAreaCode")).sendKeys(ac);
                           driver.findElement(By.id("txtExchange")).clear();
                           driver.findElement(By.id("txtExchange")).sendKeys(midtn);
                           driver.findElement(By.id("txtTelNum")).clear();
                           driver.findElement(By.id("txtTelNum")).sendKeys(lastfour);
+                          Thread.sleep(2000);
                           focusClick(driver,driver.findElement(By.id("AddToPhoneNumbers")),br);
-                          focusClick(driver,driver.findElement(By.name("mainSubmitButton")),br);
+                          Thread.sleep(2000);
+                          focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);
                                                   schk=orderprocess(driver,br);
                                                   System.out.println("Initial state2: "+status);
                                                   if(schk.equals("Pass"))
@@ -272,10 +279,11 @@ public String deleteall(WebDriver driver,String br) throws Exception
                 {
                                 for(int i=1;i<=count;i++)
                                 {
-
+                                                Thread.sleep(5000);
                                                 tn=driver.findElement(By.xpath("//html/body/div[3]/form/div/div[3]/div[2]/div/div/div[3]/div/div/div[3]/table/tbody/tr["+i+"]/td/input")).getAttribute("value");
                                                
                                                 System.out.println(tn);
+                                                Thread.sleep(5000);
                                                 //selenium.click("//*[@id='DeleteNumber_"+ tn + "']");
                                                 focusClick(driver,driver.findElement(By.id("DeleteNumber_"+ tn )),br);
                                                
@@ -291,21 +299,26 @@ public String deleteall(WebDriver driver,String br) throws Exception
                                 
                                 boolean status = driver.findElement(By.id("drActivated")).isEnabled();
                                 System.out.println(status);
+                               
                                 if(status)
                                 {
+                                	Thread.sleep(5000);
                                             focusClick(driver,driver.findElement(By.id("drActivated")),br);
+                                            Thread.sleep(5000);
+                                            focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);
                                 }
                                 
-                           //     driver.findElement(By.id("mainSubmitButton")).click();
-                                schk=orderprocess(driver,br);
+                               Thread.sleep(5000);
                                 
-                             
                                 if(!(status))
-                                {
+                                { 
+                                	Thread.sleep(5000);
                                             focusClick(driver,driver.findElement(By.id("drActivated")),br);
+                                            Thread.sleep(5000);
+                                            focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);
+                                            schk=orderprocess(driver,br);   
                                 }
-                           //     driver.findElement(By.id("mainSubmitButton")).click();
-                                schk=orderprocess(driver,br);
+                                
                                 Thread.sleep(3000);
                                 if(driver.findElement(By.cssSelector("span.help-block.error")).isDisplayed())
                                 {
@@ -330,9 +343,9 @@ public String deleteall(WebDriver driver,String br) throws Exception
                                 driver.findElement(By.id("txtTelNum")).sendKeys(lastfour1);
                                 Thread.sleep(1000);
                                 focusClick(driver,driver.findElement(By.id("AddToPhoneNumbers")),br);
-                                Thread.sleep(3000);
+                                Thread.sleep(5000);
                                 
-                          //      driver.findElement(By.id("mainSubmitButton")).click();
+                                focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);
                                 schk=orderprocess(driver,br);
                 }
                 System.out.println("Ending deleteall");
@@ -354,83 +367,84 @@ public String flowrunmaxtn(WebDriver driver,String br) throws Exception
                   String midtn;
                   String lastfour;
                   String tn;
-                  int count;
+                  int count=0;
                   
-//              TN=TN+lastfour;
                   int limit =driver.findElements(By.xpath("//html/body/div[3]/form/div/div[3]/div[2]/div/div/div[3]/div/div/div[2]/table/tbody/tr")).size();
-                  
-                  do{
-                                  ac=randomNO(999,200);
-                                  if(ac.equals("900") || ac.equals("976"))
-                                                  ac=randomNO(999,200);  
+                  System.out.println(limit);
+                  while(count<30) {
+                                   ac=randomNO(999,200);  
                                   midtn=randomNO(999,200);
                                   //String midtn="345";
                                   lastfour= randomNO(9999,1000);
                   
-                                  driver.findElement(By.id("txtAreaCode")).sendKeys(ac);
+          driver.findElement(By.id("txtAreaCode")).sendKeys(ac);
           driver.findElement(By.id("txtExchange")).sendKeys( midtn);
           driver.findElement(By.id("txtTelNum")).sendKeys(lastfour);
-          Thread.sleep(1000);
+          Thread.sleep(5000);
           focusClick(driver,driver.findElement(By.id("AddToPhoneNumbers")),br);
          
 
                   
-                  tn=ac+midtn+lastfour;
+                 
                   //do{
                   //}while(selenium.isElementPresent("//body/div[10]"));
-                  Thread.sleep(10000);
+                  Thread.sleep(1000);
                   
                   //System.out.println(selenium.getXpathCount("//*[@id='TNGridRefresh']/div"));
                   //count =driver.findElements(By.xpath("//html/body/div[3]/form/div/div[3]/div[2]/div/div/div[3]/div/div/div[3]/table/tbody//tr")).size();
                   count =driver.findElements(By.xpath("//*[@class = 'table-dotted']")).size();
-                  //int count1 = count -1;
+                  System.out.println(count);
                   int chk=0;
+                  tn=ac+midtn+lastfour;
                   for(int i=1;i<=count;i++)
                   {
-                                if(driver.findElements(By.xpath("//html/body/div[3]/form/div/div[3]/div[2]/div/div/div[3]/div/div/div[3]/table/tbody/tr["+i+"]/td//input")).equals(tn))
-                                
-                                  {
-                                                //int count1 = count-1;
+                	  Thread.sleep(5000);
+                	  String TN=driver.findElement(By.xpath("//html/body/div[3]/form/div/div[3]/div[2]/div/div/div[3]/div/div/div[3]/table/tbody/tr["+i+"]/td/input")).getAttribute("value");
+                	  System.out.println(TN);
+                                if(TN.equals(tn))
+                                  {                       
                                                   statusTracker(br,"Pass","Verify if added TN is present in the list","Added TN is present in the list. Added TN: "+count, "Added TN should be present in the list");
-                                                System.out.println("Added TN"+tn);
+                                                  System.out.println("Added TN"+tn);
                                                   chk=1;
                                                   schk="Pass";
                                   }
                   }
+                  
                   if(chk==0)
                   {
                                                 statusTracker(br,"Fail","Verify if added TN is present in the list","Added TN is not present in the list. Total Tns present "+count,"Added TN should be present in the list");
                                                 schk="Fail";
                   }
-                  if(isElementPresent("span.help-block.error"))
+                  int errmesg1= driver.findElements(By.cssSelector("span.help-block.error")).size();
+                  if(errmesg1>0)
                   {
                                                                 statusTracker(br,"Fail","Verify if 30 TNs can be added to the list","Error message is present before the 30 TNs are completed added","TN should be added to the list");
                                                                 schk="Fail";
                   }
+                  Thread.sleep(5000);
+                  focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);
                   
-                  }
-                  while(count<30 && schk.equals("Pass"));
-                                  
-                  if(schk.equals("Pass"))
+           }
+                
+                 
+                  
+                 System.out.println("Printing First Error Message");
+                  
+                 if(schk.equals("Pass"))
                   {
-                                  ac=randomNO(999,200);
-                                  midtn=randomNO(999,200);
+                   ac=randomNO(999,200);
+                   midtn=randomNO(999,200);
                                   //String midtn="345";
-                                  lastfour= randomNO(9999,1000);
-                                  driver.findElement(By.id("txtAreaCode")).sendKeys(ac);
-          driver.findElement(By.id("txtExchange")).sendKeys( midtn);
-          driver.findElement(By.id("txtTelNum")).sendKeys(lastfour);
-          Thread.sleep(1000);
-          focusClick(driver,driver.findElement(By.id("AddToPhoneNumbers")),br);
-
-
-                                  
+                   lastfour= randomNO(9999,1000);
+                   driver.findElement(By.id("txtAreaCode")).sendKeys(ac);
+                   driver.findElement(By.id("txtExchange")).sendKeys( midtn);
+                   driver.findElement(By.id("txtTelNum")).sendKeys(lastfour);
+                   Thread.sleep(5000);
+                   focusClick(driver,driver.findElement(By.id("AddToPhoneNumbers")),br);
                                   tn=ac+midtn+lastfour;
-                                  //do{
-                                  //}while(selenium.isElementPresent("//body/div[10]"));
-                                  
-                                  Thread.sleep(15000);
-                                  if(isElementPresent("span.help-block.error"))
+                                  Thread.sleep(5000);
+                                  int errmesg1= driver.findElements(By.cssSelector("span.help-block.error")).size();
+                                  if(errmesg1>0)
                                   {
                                                   statusTracker(br,"Pass","Verify if error message is displayed when adding 31st TN","Error message is displayed","Error message should be displayed");
                                   }
@@ -440,16 +454,13 @@ public String flowrunmaxtn(WebDriver driver,String br) throws Exception
                                                   schk="Fail";
                                   }
                   }
-                  
-                  if(schk.equals("Pass"))
-                  {
-                                // driver.findElement(By.id("mainSubmitButton")).click();
-                                  schk=orderprocess(driver,br);
-                                  ///OMG
-                                  //schk="Pass";
+                 
+                 System.out.println("Printing Second Error Message");
+                        
                                   if(schk.equals("Pass"))
                                   {
-                                                  statusTracker(br,"Pass","Verify if adding 30 TNs is processed successfully","Order is successfully processed","Order should be successfully processed");  
+                                                  statusTracker(br,"Pass","Verify if adding 30 TNs is processed successfully","Order is successfully processed","Order should be successfully processed"); 
+                                                  Thread.sleep(3000);
                                                   int count1 = driver.findElements(By.xpath("//html/body/div[3]/form/div/div[3]/div[2]/div/div/div[3]/div/div/div[3]/table/tbody//tr")).size();
                                                   if(count1==30)
                                                   {
@@ -464,14 +475,10 @@ public String flowrunmaxtn(WebDriver driver,String br) throws Exception
                                   else
                                   {
                                                   statusTracker(br,"Fail","Verify if adding 30 TNs is processed successfully","Order is not successfully processed","Order should be successfully processed");
-                                                  /*if(isElementPresent("modalContinueButton"))
-                                                  {
-                                                                  focusClick(driver,driver.findElement(By.id("modalContinueButton")).click();
-                                                  }*/
                                                   schk="Fail";
                                   }
-                  }
-                  System.out.println("Ending deleteall");
+                  
+                  System.out.println("Ending Maximum TNcheck");
                   return schk;
   }
   
@@ -488,7 +495,7 @@ public String TNcheck(String ac, String midtn, String lastfour, String check,Web
                 driver.findElement(By.id("txtExchange")).sendKeys(midtn);
                 driver.findElement(By.id("txtTelNum")).clear();
                 driver.findElement(By.id("txtTelNum")).sendKeys(lastfour);
-                Thread.sleep(1000);
+                Thread.sleep(5000);
                 focusClick(driver,driver.findElement(By.id("AddToPhoneNumbers")),br);
                 orderprocess(driver,br);
                 tn=ac+midtn+lastfour;
@@ -508,28 +515,21 @@ public String TNcheck(String ac, String midtn, String lastfour, String check,Web
                                 schk="Fail";
                 }
                 
-                //focusClick(driver,driver.findElement(By.xpath("//html/body/div[3]/form/div/div[3]/div[2]/div/div/div[3]/div/div/div/p[2]/a")),br);   
-                //focusClick(driver,driver.findElement(By.id("friendlyNameLink_a0cf0d34-9519-424d-9e0e-d2960d74266c")),br);                           
-                driver.findElement(By.xpath("//*[@class = 'card poping buttonLink']")).click();
-                //WebDriverWait wait = new WebDriverWait(driver, 300 /*timeout in seconds*/);
+                        
+            /*    driver.findElement(By.xpath("//*[@class = 'card poping buttonLink']")).click();
+                
                if(driver.findElements(By.xpath("//html/body/div[4]/div")).size()!=0)
-                  //if(wait.until(ExpectedConditions.alertIsPresent())!=null)
-                {                                              
+                {       focusClick(driver,driver.findElement(By.cssSelector("div.modal-footer > button.btn.btn-primary")),br);                                       
                        statusTracker(br,"Pass","Verify if error message is displayed on clicking the friendly icon when adding "+check+" TN","Error message is displayed: "+ driver.findElement(By.cssSelector("div.modal-body > p")).getText(),"Error message should be displayed");
                        schk="Pass";
-                      // focusClick(driver,driver.findElement(By.cssSelector("div.modal-footer > button.btn.btn-primary")),br);
-                       Alert alert = driver.switchTo().alert();
-                       Thread.sleep(15000);
-                       alert.accept();
-               System.out.print("Warning pop up appeared!!");
                 }
-               
                 else
                 {
+                	   focusClick(driver,driver.findElement(By.cssSelector("div.modal-footer > button.btn.btn-primary")),br);
                        statusTracker(br,"Fail","Verify if error message is displayed on clicking the friendly icon when adding "+check+" TN","Error message is not displayed","Error message should be displayed");
-                       schk="Fail";
-                       focusClick(driver,driver.findElement(By.cssSelector("div.modal-footer > button.btn.btn-primary")),br);
+                       schk="Fail";      
                 }
+               */
                System.out.println("Ending TNcheck");            
                 return schk;
 }
@@ -538,13 +538,25 @@ public String TNValidation(WebDriver driver,String br) throws Exception
 {
                 String schk ="Pass";
                 schk=TNcheck("022","300","4000","first digit 0",driver,br);
+                Thread.sleep(5000);
                 schk=TNcheck("222","000","4000","fourth digit 0",driver,br);
+                Thread.sleep(5000);
                 schk=TNcheck("122","300","4000","first digit 1",driver,br);
+                Thread.sleep(5000);
                 schk=TNcheck("222","152","4000","fourth digit 1",driver,br);
+                Thread.sleep(5000);
                 schk=TNcheck("222","000","4000","fourth digit 0",driver,br);
+                Thread.sleep(5000);
                 schk=TNcheck("","","","blank",driver,br);
-                //schk=TNcheck(ac1,midtn1,lastfour1,"existing",driver,br);
+              //  Thread.sleep(5000);
+              //  schk=TNcheck(ac1,midtn1,lastfour1,"existing",driver,br);
+                Thread.sleep(5000);
                 schk=TNcheck("99","9","99","Invalid",driver,br);
+                
+                driver.findElement(By.id("txtAreaCode")).clear();
+                driver.findElement(By.id("txtExchange")).clear();
+                driver.findElement(By.id("txtTelNum")).clear();
+              
                 /*String tns[]=SCAcheck();
                 if(!(tns[0].equals(0)))
                 {
@@ -586,7 +598,7 @@ tlimit = sheet2.getCell(5, loc).getContents();
 username = sheet2.getCell(6, loc).getContents();
 pwd = sheet2.getCell(7, loc).getContents();
 tlim = Integer.parseInt(tlimit);
-wb.close();
+//wb.close();
 
 driver.manage().timeouts().implicitlyWait(tlim,TimeUnit.SECONDS);
 logger.info("qtest1");
@@ -595,10 +607,23 @@ try {
 {
     login(driver,username,pwd);
 }
+    else
+    {
+    	 focusClick(driver,driver.findElement(By.id("settings-summary")),br); 
+    }
 logger.info("a");
-                    
+Thread.sleep(10000);
+
+	int chk=0;
+    do{
+         Thread.sleep(1000);       
+        chk++;
+        System.out.println(chk);
+              }
+    while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
+    Thread.sleep(5000);     
                     //focusClick(driver,driver.findElement(By.linkText("Settings")),br);
-                     Thread.sleep(25000);           
+                           Thread.sleep(5000);
                    // focusClick(driver,driver.findElement(By.xpath("(//a[contains(text(),'(edit)')])[6]")),br);
                      driver.findElement(By.xpath("//*[@href='/DistinctiveRing/DistinctiveRing']")).click();
                    //*[@id="ContentRefresh"]/div/div[3]/div[6]/div/a
@@ -615,6 +640,7 @@ logger.info("a");
                                                                 status = driver.findElement(By.id("drActivated")).isEnabled();
 
                                                                 statusTracker(br,"","Verify TN add/remove when feature is "+status,"","");
+                                                                Thread.sleep(2000);
                                                                 schk=flowrun1(driver,br);
                                                 }
                                                 
@@ -633,21 +659,24 @@ logger.info("a");
                                                 {
                                                                 statusTracker(br,"","Verify TN Validation","","");
                                                                 System.out.println("Starting TN validation");
+                                                                Thread.sleep(2000);
                                                                 schk=TNValidation(driver,br);
                                                 }
-                                                
-                                                if(schk.equals("Pass"))
-                                                {
-                                                                statusTracker(br,"","Verify maximum TN operations","","");
-                                                                schk=flowrunmaxtn(driver,br);
-                                                }
-                                                
                                                 if(schk.equals("Pass"))
                                                 {
                                                                 statusTracker(br,"","Verify Deleting all numbers","","");
+                                                                Thread.sleep(2000);
                                                                 schk=deleteall(driver,br);
                                                 }
                                                 
+                                            /*    if(schk.equals("Pass"))
+                                                {
+                                                                statusTracker(br,"","Verify maximum TN operations","","");
+                                                                Thread.sleep(2000);
+                                                                schk=flowrunmaxtn(driver,br);
+                                                }*/
+                                                
+                                            
                                                 focusClick(driver,driver.findElement(By.id("mainCancelButton")),br);
                          first=1;     
                                                     

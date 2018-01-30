@@ -136,7 +136,7 @@ public class Main_Function extends CommonFunctions{
             return null;
             }
             
-            @Test(dataProvider="getData",priority=4)
+            @Test(dataProvider="getData",priority=1)
             public  void CallBlockerSelect( String br) throws Exception {
                             loc=8;
                             logger.info(""+"CallBlockerSelect is called");
@@ -183,7 +183,7 @@ public class Main_Function extends CommonFunctions{
                             }
             }
             
-            @Test(dataProvider="getData",priority=1)
+            @Test(dataProvider="getData",priority=4)
             public  void CallBlockerBasicPlus( String br) throws Exception {
                             loc=9;
                             logger.info(""+"CallBlockerBasicPlus is called");

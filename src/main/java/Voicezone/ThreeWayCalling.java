@@ -45,7 +45,7 @@ public class ThreeWayCalling extends CommonFunctions {
             username = sheet2.getCell(6, loc).getContents();
             pwd = sheet2.getCell(7, loc).getContents();
             tlim = Integer.parseInt(tlimit);
-            wb.close();
+           // wb.close();
         
             driver.manage().timeouts().implicitlyWait(tlim,TimeUnit.SECONDS);
             logger.info("qtest1");
@@ -54,20 +54,37 @@ public class ThreeWayCalling extends CommonFunctions {
                 {
                     login(driver,username,pwd);
                 }
+                    else
+                    {
+                    	 focusClick(driver,driver.findElement(By.id("settings-summary")),br); 
+                    }
                 logger.info("a");
-               
+                Thread.sleep(10000);
+              	int chk=0;
+          	      do{
+          	           Thread.sleep(1000);       
+          	          chk++;
+          	          System.out.println(chk);
+          	                }
+          	      while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
+          	      Thread.sleep(5000);
 //                focusClick(driver, driver.findElement(By.linkText("Settings")),br);
                 focusClick(driver, driver.findElement(By.xpath("(//a[contains(text(),'(edit)')])[7]")),br);
           // driver.findElement(By.id("Activated")).click();
-           status = driver.findElement(By.id("threewayActivated")).isSelected();
+         
+                Thread.sleep(5000);
+                status1=false;
+                status = driver.findElement(By.id("threewayActivated")).isSelected();
                System.out.println("Initial state: "+status);
-               status1=false;
+             
                
            if (status==(false))
            {
               
                 String schk="Fail";
+                Thread.sleep(5000);
                 focusClick(driver,driver.findElement(By.id("threewayActivated")),br);
+                Thread.sleep(5000);
                 focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);            
                        schk=orderprocess(driver,br);
                        status1=true;
@@ -80,8 +97,11 @@ public class ThreeWayCalling extends CommonFunctions {
                        {
                              statusTracker(br,"Fail","Verify if enabling 3 way calling is processed successfully","Order is not successfully processed","Order should be successfully processed");
                        }
-                       status = driver.findElement(By.id("threewayActivated")).isSelected();
+           
+                     status = driver.findElement(By.id("threewayActivated")).isSelected();
+                     Thread.sleep(5000);
                        focusClick(driver,driver.findElement(By.id("threewayActivated")),br);
+                       Thread.sleep(5000);
                        focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);     
                        System.out.println(status);
                        schk=orderprocess(driver,br);
@@ -95,13 +115,16 @@ public class ThreeWayCalling extends CommonFunctions {
                        {
                              statusTracker(br,"Fail","Verify if disabling 3 way calling is processed successfully","Order is not successfully processed","Order should be successfully processed");
                        }
-                }
-                      else
+          }
+                     
+           
+           else
                        {
                              String schk="Fail";
                              status = driver.findElement(By.id("threewayActivated")).isSelected();
                              System.out.println(status);
                              focusClick(driver,driver.findElement(By.id("threewayActivated")),br);
+                             Thread.sleep(5000);
                        focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);     
                        schk=orderprocess(driver,br);
                        status1=false;
@@ -116,6 +139,7 @@ public class ThreeWayCalling extends CommonFunctions {
                              }
                              status = driver.findElement(By.id("threewayActivated")).isSelected();
                              focusClick(driver,driver.findElement(By.id("threewayActivated")),br);
+                             Thread.sleep(5000);
                              focusClick(driver,driver.findElement(By.id("mainSubmitButton")),br);                     
                              schk=orderprocess(driver,br);
                              status1=true;
@@ -130,7 +154,7 @@ public class ThreeWayCalling extends CommonFunctions {
                              }
                        }      
               
-         
+              focusClick(driver,driver.findElement(By.id("mainCancelButton")),br);
               first=1;      
   }
                                                   

@@ -315,7 +315,7 @@ tlimit = sheet2.getCell(5, loc).getContents();
 username = sheet2.getCell(6, loc).getContents();
 pwd = sheet2.getCell(7, loc).getContents();
 tlim = Integer.parseInt(tlimit);
-wb.close();
+//wb.close();
 
 driver.manage().timeouts().implicitlyWait(tlim,TimeUnit.SECONDS);
 logger.info("qtest1");
@@ -324,16 +324,22 @@ try {
   {
       login(driver,username,pwd);
   }
+      else
+      {
+    	  focusClick(driver,driver.findElement(By.id("settings-summary")),br); 
+      }
   logger.info("a");
-  int chk=0;
-    do{
-         Thread.sleep(1000);       
-        chk++;
-        System.out.println(chk);
-              }
-    while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
+  Thread.sleep(10000);
+	int chk=0;
+      do{
+           Thread.sleep(1000);       
+          chk++;
+          System.out.println(chk);
+                }
+      while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
+      Thread.sleep(5000);
 		 //	driver.findElement(By.linkText("Settings")).click();
-			Thread.sleep(5000);
+			
 		    driver.findElement(By.xpath("(//a[contains(text(),'(edit)')])[2]")).click();
 		
 				Thread.sleep(5000);
@@ -419,7 +425,7 @@ try {
 			//if(schk.equals("Pass"))
 //				schk=flowrun();
  
- 
+	        focusClick(driver,driver.findElement(By.id("mainCancelButton")),br);
 			first=1;      
       }
       catch (Exception e)
@@ -433,8 +439,9 @@ try {
       
     }
     finally {
-                //statusTracker("end","","");
-      wb.close();
+    	wb.close();
+    	System.out.println("Complete");
+ 
      
     }
   }

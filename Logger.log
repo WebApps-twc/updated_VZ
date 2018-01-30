@@ -1,138 +1,1057 @@
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Path C:\Users\s.d.saravanan\Desktop\TestVZ\VoiceZone Automation\VoiceZone Automation
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) inputfile C:\Users\s.d.saravanan\Desktop\TestVZ\VoiceZone Automation\VoiceZone Automation\Input_Sheet.xls outputfile C:\Users\s.d.saravanan\Desktop\TestVZ\VoiceZone Automation\VoiceZone Automation\Test_Results\Results
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) RO initialized
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) total number of rows--------------->1
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Last_row 54
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) first_row 0
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1  IM variable 0 Apollo Input Sheet
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1  IM variable 1 
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1  IM variable 2 Select Environment : 
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 Grid IM variable 3 
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 No IM variable 4 http://voicezone.timewarnercable.com
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1  IM variable 5 
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1  IM variable 6 
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 Execute 
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) Path C:\Users\s.d.saravanan\Desktop\TestVZ\VoiceZone Automation\VoiceZone Automation
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) inputfile C:\Users\s.d.saravanan\Desktop\TestVZ\VoiceZone Automation\VoiceZone Automation\Input_Sheet.xls outputfile C:\Users\s.d.saravanan\Desktop\TestVZ\VoiceZone Automation\VoiceZone Automation\Test_Results\Results
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) RO initialized
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) RO initialized
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) RO initialized
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) RO initialized
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) RO initialized
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) RO initialized
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) RO initialized
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) RO initialized
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) RO initialized
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) RO initialized
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) total number of rows--------------->1
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) Last_row 54
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) first_row 0
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) TC1  IM variable 0 Apollo Input Sheet
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) TC1  IM variable 1 
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) TC1  IM variable 2 Select Environment : 
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) TC1 Grid IM variable 3 
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) TC1 No IM variable 4 http://voicezone.timewarnercable.com
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) TC1  IM variable 5 
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) TC1  IM variable 6 
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) TC1 Execute 
 (Y/N) IM variable 7 CHILD TEST CASE
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 N IM variable 8 CallBlockerSelect
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 N IM variable 9 CallBlockerBasicPlus
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 N IM variable 10 Nomorobo
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 N IM variable 11 CallBlockerAccept
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 N IM variable 12 OutBoundCallerid
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) TC1 Y IM variable 13 VoiceToText
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) first_tc: 13
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Getting inside
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Grid option set to NO
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) CallBlockerBasicPlus is called
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Getting inside
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Grid option set to NO
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Nomorobo is called
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Getting inside
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Grid option set to NO
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) OutBoundCallerid is called
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Getting inside
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Grid option set to NO
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) CallBlockerSelect is called
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Getting inside
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Grid option set to NO
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) CallBlockerAccept is called
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Getting inside
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (main:) Grid option set to NO
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) VoicetotoText is called
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser and excel location of test1  is  and 13
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) GRID IS NOT In MAIN!
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:)  Test_called value inside validation1
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) ^^^^^^^^^^^ Br  and loc value validation is ^^^^^^^^^chrome 13
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) ro[0] is10
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) ro[1] is10
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) validation called
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) testcalled value iz : 1
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) firstpage true
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) locvalue iz: 13
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) validation called3
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Merging of heading part done now
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check1
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check2
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check3
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check4
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check5
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check6
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check7
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check8
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Sep1---> number of rows 54
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_b
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_a
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Grid status NA
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) br valueis^^^^^^^^^:chrome
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_C
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) exec1 Y loc 13
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) 13
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_a
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Grid status No
-12-28-2017 13:45:52  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) br valueis^^^^^^^^^:chrome
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_C
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) exec1 Y loc 13
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_d
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_f
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Starting execution!!
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> Nomorobo
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 10
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> NotifybyEmail
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 14
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> NotifybyText
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 15
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> PinSkip
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 17
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> PinChange
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 16
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> CallBlockerSelect
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 8
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> CallBlockerAccept
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 11
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> VoiceToText
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 13
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) got inside
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Obj run is called
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser has already been closed
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) set up is called
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) set up is called
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) name1 in setup VoiceToText
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Grid is NO and inside setup 13
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Grid is NO and inside setup
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Grid_Status No br chrome
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) http://voicezone.timewarnercable.com
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) went inside chrome
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) i went inside this loop of chrome
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) last loop of chrome
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Current dir : C:\Users\s.d.saravanan\Desktop\TestVZ\VoiceZone Automation\VoiceZone Automation
-12-28-2017 13:45:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) spath is ---C:\\Users\\s.d.saravanan\\Desktop\\TestVZ\\VoiceZone Automation\\VoiceZone Automation\Resource\Browser_Drivers
-12-28-2017 13:46:01  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Before grid remote
-12-28-2017 13:46:01  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) helo
-12-28-2017 13:46:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Just reached end of setup
-12-28-2017 13:46:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) qtest1
-12-28-2017 13:46:41  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) a
-12-28-2017 13:47:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsFail
-12-28-2017 13:47:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 11br chrome
-12-28-2017 13:47:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) _December 28_01.47PM
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) TC1 Y IM variable 8 CallBlockerSelect
+01-22-2018 16:41:08  [Voicezone.CommonFunctions] (main:) first_tc: 8
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) CallBlockerSelect is called
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser and excel location of test1  is  and 8
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) GRID IS NOT In MAIN!
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:)  Test_called value inside validation1
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) ^^^^^^^^^^^ Br  and loc value validation is ^^^^^^^^^chrome 8
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) ro[0] is10
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) ro[1] is10
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) validation called
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) testcalled value iz : 1
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) firstpage true
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) locvalue iz: 8
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) validation called3
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Merging of heading part done now
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check1
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check2
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check3
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check4
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check5
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check6
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check7
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check8
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Sep1---> number of rows 54
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_b
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_a
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Grid status NA
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) br valueis^^^^^^^^^:chrome
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_C
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) exec1 Y loc 8
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) 8
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_a
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Grid status No
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) br valueis^^^^^^^^^:chrome
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_C
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) exec1 Y loc 8
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_d
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_f
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Starting execution!!
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> Nomorobo
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 10
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> NotifybyEmail
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 14
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> NotifybyText
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 15
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> PinSkip
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 17
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> PinChange
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 16
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> CallBlockerSelect
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 8
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) got inside
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Obj run is called
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser has already been closed
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) set up is called
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) set up is called
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) name1 in setup CallBlockerSelect
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Grid is NO and inside setup 8
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Grid is NO and inside setup
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Grid_Status No br chrome
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) http://voicezone.timewarnercable.com
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) went inside chrome
+01-22-2018 16:41:11  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) i went inside this loop of chrome
+01-22-2018 16:41:12  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) last loop of chrome
+01-22-2018 16:41:12  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Current dir : C:\Users\s.d.saravanan\Desktop\TestVZ\VoiceZone Automation\VoiceZone Automation
+01-22-2018 16:41:12  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) spath is ---C:\\Users\\s.d.saravanan\\Desktop\\TestVZ\\VoiceZone Automation\\VoiceZone Automation\Resource\Browser_Drivers
+01-22-2018 16:41:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Before grid remote
+01-22-2018 16:41:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) helo
+01-22-2018 16:41:18  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Just reached end of setup
+01-22-2018 16:41:18  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) qtest1
+01-22-2018 16:42:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) a
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 11br chrome
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 11br chrome
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualError message is displayed: You have not entered a phone number. You must have at least one number in the list to enable this feature. Please enter a phone number to add to your list of blocked callers. : No screenshot required 
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedError message should be displayed
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if error message is displayed when trying to enable feature with no TNs
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 11br chrome arrcount [I@7afba356
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if error message is displayed when trying to enable feature with no TNs
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Error message is displayed: You have not entered a phone number. You must have at least one number in the list to enable this feature. Please enter a phone number to add to your list of blocked callers.
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Error message should be displayed
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:45:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:46:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Checkpoint in orderprocessing
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Checkpoint in orderprocessing
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 12br chrome
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 12br chrome
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualOrder processing has completed successfully : No screenshot required 
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedOrder should be processed successfully
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify order processing when switching from Enabled to Disabled
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 12br chrome arrcount [I@7afba356
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify order processing when switching from Enabled to Disabled
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order processing has completed successfully
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order should be processed successfully
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:46:49  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Checkpoint in orderprocessing
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 13br chrome
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 13br chrome
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualOrder processing has completed successfully : No screenshot required 
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedOrder should be processed successfully
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify order processing when switching from Disabled to Enabled
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 13br chrome arrcount [I@7afba356
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify order processing when switching from Disabled to Enabled
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order processing has completed successfully
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order should be processed successfully
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get results
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 14br chrome
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 14br chrome
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actual
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expected
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify TN add/remove when feature is true
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result 
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 14br chrome arrcount [I@7afba356
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) 
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify TN add/remove when feature is true
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) 
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) 
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) 
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:47:26  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 15br chrome
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 15br chrome
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualAdded TN is present in the list : No screenshot required 
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedAdded TN should be present in the list
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if added TN is present in the list
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 15br chrome arrcount [I@7afba356
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if added TN is present in the list
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Added TN is present in the list
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Added TN should be present in the list
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:47:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Checkpoint in orderprocessing
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 16br chrome
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 16br chrome
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualOrder is successfully processed : No screenshot required 
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedOrder should be successfully processed
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if add TN order is processed successfully
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 16br chrome arrcount [I@7afba356
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if add TN order is processed successfully
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order is successfully processed
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order should be successfully processed
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 17br chrome
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 17br chrome
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualTN is displayed after order process : No screenshot required 
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedTN is displayed after order process
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if TN is displayed after order process
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 17br chrome arrcount [I@7afba356
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if TN is displayed after order process
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) TN is displayed after order process
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) TN is displayed after order process
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:48:17  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Checkpoint in orderprocessing
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 18br chrome
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 18br chrome
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualOrder is successfully processed : No screenshot required 
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedOrder should be successfully processed
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if remove TN order is processed successfully
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 18br chrome arrcount [I@7afba356
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if remove TN order is processed successfully
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order is successfully processed
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order should be successfully processed
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:48:57  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 19br chrome
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 19br chrome
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualTN is not displayed after Deleting  : No screenshot required 
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedTN is not displayed after Deleting
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if TN is not displayed after Deleting
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 19br chrome arrcount [I@7afba356
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if TN is not displayed after Deleting
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) TN is not displayed after Deleting 
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) TN is not displayed after Deleting
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:48:58  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Checkpoint in orderprocessing
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 20br chrome
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 20br chrome
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualOrder processing has completed successfully : No screenshot required 
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedOrder should be processed successfully
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify order processing when switching from Enabled to Disabled
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 20br chrome arrcount [I@7afba356
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify order processing when switching from Enabled to Disabled
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order processing has completed successfully
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order should be processed successfully
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get results
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 21br chrome
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 21br chrome
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actual
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expected
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify TN add/remove when feature is false
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result 
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 21br chrome arrcount [I@7afba356
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) 
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify TN add/remove when feature is false
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) 
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) 
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) 
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:49:22  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 22br chrome
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 22br chrome
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualAdded TN is present in the list : No screenshot required 
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedAdded TN should be present in the list
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if added TN is present in the list
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 22br chrome arrcount [I@7afba356
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if added TN is present in the list
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Added TN is present in the list
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Added TN should be present in the list
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:49:54  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Checkpoint in orderprocessing
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 23br chrome
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 23br chrome
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualOrder is successfully processed : No screenshot required 
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedOrder should be successfully processed
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if add TN order is processed successfully
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 23br chrome arrcount [I@7afba356
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if add TN order is processed successfully
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order is successfully processed
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order should be successfully processed
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 24br chrome
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 24br chrome
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualTN is displayed after order process : No screenshot required 
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedTN is displayed after order process
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if TN is displayed after order process
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 24br chrome arrcount [I@7afba356
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if TN is displayed after order process
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) TN is displayed after order process
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) TN is displayed after order process
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:50:13  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Checkpoint in orderprocessing
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 25br chrome
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 25br chrome
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualOrder is successfully processed : No screenshot required 
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedOrder should be successfully processed
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if remove TN order is processed successfully
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 25br chrome arrcount [I@7afba356
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if remove TN order is processed successfully
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order is successfully processed
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order should be successfully processed
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 26br chrome
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 26br chrome
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualTN is not displayed after Deleting  : No screenshot required 
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedTN is not displayed after Deleting
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if TN is not displayed after Deleting
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 26br chrome arrcount [I@7afba356
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if TN is not displayed after Deleting
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) TN is not displayed after Deleting 
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) TN is not displayed after Deleting
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get results
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 27br chrome
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 27br chrome
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actual
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expected
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify TN Validation
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result 
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 27br chrome arrcount [I@7afba356
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) 
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify TN Validation
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) 
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) 
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) 
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:50:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 28br chrome
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 28br chrome
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualError message is displayed: Phone numbers cannot begin with a 0 or 1. : No screenshot required 
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedError message should be displayed
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if error message is displayed when adding first digit 0 TN
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 28br chrome arrcount [I@7afba356
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if error message is displayed when adding first digit 0 TN
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Error message is displayed: Phone numbers cannot begin with a 0 or 1.
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Error message should be displayed
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:51:02  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 29br chrome
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 29br chrome
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualError message is displayed: That’s not a valid number. The fourth digit cannot be a 0 or 1. : No screenshot required 
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedError message should be displayed
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if error message is displayed when adding fourth digit 0 TN
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 29br chrome arrcount [I@7afba356
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if error message is displayed when adding fourth digit 0 TN
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Error message is displayed: That’s not a valid number. The fourth digit cannot be a 0 or 1.
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Error message should be displayed
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:51:19  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 30br chrome
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 30br chrome
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualError message is displayed: Phone numbers cannot begin with a 0 or 1. : No screenshot required 
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedError message should be displayed
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if error message is displayed when adding first digit 1 TN
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 30br chrome arrcount [I@7afba356
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if error message is displayed when adding first digit 1 TN
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Error message is displayed: Phone numbers cannot begin with a 0 or 1.
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Error message should be displayed
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:51:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 31br chrome
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 31br chrome
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualError message is displayed: That’s not a valid number. The fourth digit cannot be a 0 or 1. : No screenshot required 
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedError message should be displayed
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if error message is displayed when adding fourth digit 1 TN
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 31br chrome arrcount [I@7afba356
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if error message is displayed when adding fourth digit 1 TN
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Error message is displayed: That’s not a valid number. The fourth digit cannot be a 0 or 1.
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Error message should be displayed
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:51:53  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 32br chrome
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 32br chrome
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualError message is displayed: That’s not a valid number. The fourth digit cannot be a 0 or 1. : No screenshot required 
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedError message should be displayed
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if error message is displayed when adding fourth digit 0 TN
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 32br chrome arrcount [I@7afba356
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if error message is displayed when adding fourth digit 0 TN
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Error message is displayed: That’s not a valid number. The fourth digit cannot be a 0 or 1.
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Error message should be displayed
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:52:10  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 33br chrome
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 33br chrome
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualError message is displayed: Phone number is missing. : No screenshot required 
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedError message should be displayed
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if error message is displayed when adding blank TN
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 33br chrome arrcount [I@7afba356
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if error message is displayed when adding blank TN
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Error message is displayed: Phone number is missing.
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Error message should be displayed
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:52:28  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 34br chrome
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 34br chrome
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualError message is displayed: That’s not enough numbers. Phone numbers must be 10 digits long. : No screenshot required 
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedError message should be displayed
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if error message is displayed when adding Invalid TN
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 34br chrome arrcount [I@7afba356
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if error message is displayed when adding Invalid TN
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Error message is displayed: That’s not enough numbers. Phone numbers must be 10 digits long.
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Error message should be displayed
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:52:45  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:52:50  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) count21
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) CallBlockerSelect over chrome cF
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Set Up over!!********************
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) [I@7afba356
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) **VALUES fetched in OBJ_RUN***
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Inside while obj_run
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Inside obj_run If
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[1] in OBJ_RUN chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) br in OBJ_RUN chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) l_browser24
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) i_browser 0
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RO****************************ro is 10
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 0
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if error message is displayed when trying to enable feature with no TNs
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Error message is displayed: You have not entered a phone number. You must have at least one number in the list to enable this feature. Please enter a phone number to add to your list of blocked callers.
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Error message should be displayed
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 1
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify order processing when switching from Enabled to Disabled
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Order processing has completed successfully
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Order should be processed successfully
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 2
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify order processing when switching from Disabled to Enabled
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Order processing has completed successfully
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Order should be processed successfully
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 3
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] 
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify TN add/remove when feature is true
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] 
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] 
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 4
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if added TN is present in the list
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Added TN is present in the list
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Added TN should be present in the list
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 5
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if add TN order is processed successfully
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Order is successfully processed
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Order should be successfully processed
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 6
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if TN is displayed after order process
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] TN is displayed after order process
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] TN is displayed after order process
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 7
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if remove TN order is processed successfully
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Order is successfully processed
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Order should be successfully processed
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 8
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if TN is not displayed after Deleting
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] TN is not displayed after Deleting 
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] TN is not displayed after Deleting
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 9
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify order processing when switching from Enabled to Disabled
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Order processing has completed successfully
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Order should be processed successfully
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 10
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] 
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify TN add/remove when feature is false
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] 
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] 
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 11
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if added TN is present in the list
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Added TN is present in the list
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Added TN should be present in the list
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 12
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if add TN order is processed successfully
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Order is successfully processed
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Order should be successfully processed
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 13
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if TN is displayed after order process
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] TN is displayed after order process
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] TN is displayed after order process
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 14
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if remove TN order is processed successfully
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Order is successfully processed
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Order should be successfully processed
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 15
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if TN is not displayed after Deleting
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] TN is not displayed after Deleting 
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] TN is not displayed after Deleting
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 16
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] 
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify TN Validation
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] 
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] 
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 17
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if error message is displayed when adding first digit 0 TN
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Error message is displayed: Phone numbers cannot begin with a 0 or 1.
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Error message should be displayed
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 18
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if error message is displayed when adding fourth digit 0 TN
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Error message is displayed: That’s not a valid number. The fourth digit cannot be a 0 or 1.
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Error message should be displayed
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 19
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if error message is displayed when adding first digit 1 TN
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Error message is displayed: Phone numbers cannot begin with a 0 or 1.
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Error message should be displayed
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 20
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if error message is displayed when adding fourth digit 1 TN
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Error message is displayed: That’s not a valid number. The fourth digit cannot be a 0 or 1.
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Error message should be displayed
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 21
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if error message is displayed when adding fourth digit 0 TN
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Error message is displayed: That’s not a valid number. The fourth digit cannot be a 0 or 1.
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Error message should be displayed
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 22
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if error message is displayed when adding blank TN
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Error message is displayed: Phone number is missing.
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Error message should be displayed
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 23
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if error message is displayed when adding Invalid TN
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Error message is displayed: That’s not enough numbers. Phone numbers must be 10 digits long.
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Error message should be displayed
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount end of obj run [I@7afba356
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RO wen obj run ends : +br :35 chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Inside while obj_run
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Returning value in obj_run start
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Returning value in obj_run **0
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RESULT_SHEET VALUE AFTER OBJ_RUN= FINAL counter_result_sheet: 34
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run2
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i_browser] chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run23
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:)  Merging testname cell 
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) br chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) counter_result_initial[i_browser] 10
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) counter_result_final[i_browser] 34
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) i_browser n loc respectively  0 8
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run234
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation 0 browser chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Merging 0 ,34,4,34
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run2345
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run23456
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run27
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Complete
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) check1
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Test completed yes or NO inside validation isNo
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Workbook closed: LS
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run28
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) #####################################################
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run29
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total1
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) nmbr is jxl.write.Number@53e9ad0a
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) #####################################################
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Workbook closed: LS
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Excel location value in test1 is 8
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Test completed yes or NOYes
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Nomorobo is called
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser and excel location of test1  is  and 10
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) GRID IS NOT In MAIN!
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:)  Test_called value inside validation2
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) ^^^^^^^^^^^ Br  and loc value validation is ^^^^^^^^^chrome 10
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) ro[0] is35
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) ro[1] is10
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) validation called
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) testcalled value iz : 2
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) firstpage true
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) locvalue iz: 10
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) validation called3
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check1
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check2
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check3
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check4
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check5
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check6
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check7
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) *******check8
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Sep1---> number of rows 54
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_b
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_a
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Grid status NA
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) br valueis^^^^^^^^^:chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_C
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) exec1 Y loc 10
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) 8
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_a
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Grid status No
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) br valueis^^^^^^^^^:chrome
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_C
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) exec1 Y loc 10
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_d
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_2
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) location_f
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Starting execution!!
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total number of rows--------------->2
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Keyword ---> Nomorobo
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Row Locator ---> 10
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) got inside
+01-22-2018 16:52:56  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Obj run is called
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsPass
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 35br chrome
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 35br chrome
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualThe Nomorobo Popup is displayed : No screenshot required 
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedThe Nomorobo Popup should be displayed
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify if the Nomorobo Popup is displayed
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Pass
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 35br chrome arrcount [I@7afba356
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify if the Nomorobo Popup is displayed
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The Nomorobo Popup is displayed
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The Nomorobo Popup should be displayed
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Pass
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:53:43  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:54:15  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsFail
+01-22-2018 16:54:15  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:54:15  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:54:15  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 36br chrome
+01-22-2018 16:54:15  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) _January 22_04.54PM
+01-22-2018 16:54:16  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:54:16  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 36br chrome
+01-22-2018 16:54:16  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualOrder processing has failed Refer screenshot: C:\Users\s.d.saravanan\Desktop\TestVZ\VoiceZone Automation\VoiceZone Automation\//Test_Results//Fail_Screenshots////null_Int_Fail1_January 22_04.54PM.png
+01-22-2018 16:54:16  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expectedOrder should be processed successfully
+01-22-2018 16:54:16  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenarioVerify order processing when switching from  Nomorobo Disabled to  Nomorobo Enable
+01-22-2018 16:54:16  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Fail
+01-22-2018 16:54:16  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:54:16  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 36br chrome arrcount [I@7afba356
+01-22-2018 16:54:16  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Fail
+01-22-2018 16:54:16  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify order processing when switching from  Nomorobo Disabled to  Nomorobo Enable
+01-22-2018 16:54:16  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order processing has failed
+01-22-2018 16:54:16  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order should be processed successfully
+01-22-2018 16:54:16  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:54:16  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:54:16  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Fail
+01-22-2018 16:54:16  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:54:16  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:54:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Get resultsFail
+01-22-2018 16:54:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i] chrome
+01-22-2018 16:54:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[ij]!=null
+01-22-2018 16:54:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 37br chrome
+01-22-2018 16:54:36  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) _January 22_04.54PM
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) storing done******
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 37br chrome
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_actualThe browser has taken too long to respond or an intermediate error has occurred Index: 1, Size: 0 Refer screenshot: C:\Users\s.d.saravanan\Desktop\TestVZ\VoiceZone Automation\VoiceZone Automation\//Test_Results//Fail_Screenshots////null_Int_Fail2_January 22_04.54PM.png
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_expected 
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_scenario 
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result Fail
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RB ... if...{}
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) COUNTER RESULT SHEET VALUE ******** 37br chrome arrcount [I@7afba356
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Fail
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:)  
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The browser has taken too long to respond or an intermediate error has occurred Index: 1, Size: 0
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:)  
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The set of keys are!@#$%^&* []
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Values **** rb.getResult()**= nulln
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Fail
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) STATUS TRACKER OVER**************
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount is [I@7afba356 brchrome
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Nomorobo over chrome cF
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Set Up over!!********************
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) [I@7afba356
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) **VALUES fetched in OBJ_RUN***
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Inside while obj_run
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Inside obj_run If
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[1] in OBJ_RUN chrome
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) br in OBJ_RUN chrome
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) l_browser3
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) i_browser 0
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RO****************************ro is 35
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 0
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Pass
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify if the Nomorobo Popup is displayed
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] The Nomorobo Popup is displayed
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] The Nomorobo Popup should be displayed
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 1
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Fail
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo] Verify order processing when switching from  Nomorobo Disabled to  Nomorobo Enable
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] Order processing has failed
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo] Order should be processed successfully
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Print stuff
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Print stuff1
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Print stuff2
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Verify order processing when switching from  Nomorobo Disabled to  Nomorobo Enable
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order processing has failed
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Order should be processed successfully
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Iteration number 2
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Browser : chrome
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[0][jo] Fail
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[1][jo]  
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[2][jo] The browser has taken too long to respond or an intermediate error has occurred Index: 1, Size: 0
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) result_array[3][jo]  
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Print stuff
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Print stuff1
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Print stuff2
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:)  
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) The browser has taken too long to respond or an intermediate error has occurred Index: 1, Size: 0
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:)  
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) arrcount end of obj run [I@7afba356
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RO wen obj run ends : +br :39 chrome
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Inside while obj_run
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Returning value in obj_run start
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Returning value in obj_run **0
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) RESULT_SHEET VALUE AFTER OBJ_RUN= FINAL counter_result_sheet: 38
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run2
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) browser[i_browser] chrome
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run23
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:)  Merging testname cell 
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) br chrome
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) counter_result_initial[i_browser] 35
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) counter_result_final[i_browser] 38
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) i_browser n loc respectively  0 10
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run234
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation 0 browser chrome
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Merging 0 ,38,4,38
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run2345
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run23456
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run27
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Complete
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) check1
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Test completed yes or NO inside validation isNo
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Workbook closed: LS
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run28
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) #####################################################
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Validation******* after obj_run29
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) total2
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) nmbr is jxl.write.Number@5a27cca6
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) #####################################################
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Workbook closed: LS
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Excel location value in test1 is 10
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) Test completed yes or NOYes
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) OutBoundCallerid is called
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) CallBlockerBasicPlus is called
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) CallBlockerAccept is called
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) VoicetotoText is called
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) NotifybyEmail is called
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) NotifybyText is called
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) PinChange is called
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) PinSkip is called
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) AnswerAnywhere is called
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) CallForwardingBusy is called
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) CallForwardingNoAnswer is called
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) SelectiveCallForwarding is called
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) CallForwardingUnconditional is called
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) CallWaiting is called
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) DistinctiveRing is called
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) ThreeWayCalling is called
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Getting inside
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) no_of_browsers NA
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (main:) Grid option set to NO
+01-22-2018 16:54:37  [Voicezone.CommonFunctions] (TestNG-PoolService-0:) SpeedDial is called

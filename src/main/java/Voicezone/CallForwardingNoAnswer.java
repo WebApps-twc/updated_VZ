@@ -510,7 +510,7 @@ public String TNValidation(WebDriver driver,String br) throws Exception
                      username = sheet2.getCell(6, loc).getContents();
                      pwd = sheet2.getCell(7, loc).getContents();
                      tlim = Integer.parseInt(tlimit);
-                     wb.close();
+                    // wb.close();
 
                      driver.manage().timeouts().implicitlyWait(tlim,TimeUnit.SECONDS);
                      logger.info("qtest1");
@@ -519,19 +519,23 @@ public String TNValidation(WebDriver driver,String br) throws Exception
                      {
                     	 login(driver,username,pwd);
                      }
+                     else
+                     {
+                    	 focusClick(driver,driver.findElement(By.id("settings-summary")),br); 
+                     }
                      logger.info("a");
-                     int chk=0;
-                     do{
-                          Thread.sleep(1000);       
-                         chk++;
-                         System.out.println(chk);
-                               }
-                     while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
-     
-           Thread.sleep(5000);
+                     Thread.sleep(10000);
+                   	int chk=0;
+               	      do{
+               	           Thread.sleep(1000);       
+               	          chk++;
+               	          System.out.println(chk);
+               	                }
+               	      while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
+               	      Thread.sleep(5000);
     	   //focusClick(driver,driver.findElement(By.linkText("Settings")),br);
     	   focusClick(driver,driver.findElement(By.xpath("(//a[contains(text(),'(edit)')])[4]")),br);
-  	      
+  	      Thread.sleep(5000);
     	
 			do{
 			}while(assertTrue(isElementPresent(By.cssSelector("#Answer-Anywhere > h1"))));

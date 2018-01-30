@@ -282,7 +282,7 @@ public class CallBlockerBasicPlus extends CommonFunctions {
     	        pwd = sheet2.getCell(7, loc).getContents();
     	     
     	        tlim = Integer.parseInt(tlimit);
-    	        wb.close();
+    	       // wb.close();
 
     	     driver.manage().timeouts().implicitlyWait(tlim,TimeUnit.SECONDS); 
     	                            //TimeUnit.SECONDS);
@@ -294,21 +294,25 @@ public class CallBlockerBasicPlus extends CommonFunctions {
     	            {
     	      		  login(driver,username,pwd);
     	            }
-    	      	 
-            
-    	      //	focusClick(driver, driver.findElement(By.linkText("Settings")),br);
-    	      	int chk=0;
-    		      do{
-    		           Thread.sleep(1000);       
-    		          chk++;
-    		          System.out.println(chk);
-    		                }
-    		      while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
-    			
+    	      	  else
+    	      	  {
+    	      		 focusClick(driver,driver.findElement(By.id("settings-summary")),br); 
+    	      	  }
+    	      	Thread.sleep(10000);
+               
+              	int chk=0;
+          	      do{
+          	           Thread.sleep(1000);       
+          	          chk++;
+          	          System.out.println(chk);
+          	                }
+          	      while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
+          	      Thread.sleep(5000);
     	      	focusClick(driver, driver.findElement(By.xpath("(//a[contains(text(),'(edit)')])[1]")),br);
+    	        Thread.sleep(5000);
     	        driver.findElement(By.xpath("//div[@id='ContentRefresh']/ul/li[2]/a")).click();
     	                    	    
-    	         
+    	        Thread.sleep(5000);
     	          try
     	          {
     	          if( driver.findElement(By.id("EACRActivated")).isDisplayed())
@@ -324,7 +328,7 @@ public class CallBlockerBasicPlus extends CommonFunctions {
     	          }
     	                    	
     	       
-    
+    	          focusClick(driver,driver.findElement(By.id("mainCancelButton")),br);
     	 first=1;      
       }  
                   

@@ -376,7 +376,7 @@ public CallForwardingBusy(String path) {
                       username = sheet2.getCell(6, loc).getContents();
                       pwd = sheet2.getCell(7, loc).getContents();
                       tlim = Integer.parseInt(tlimit);
-                      wb.close();
+                    //  wb.close();
 
                       driver.manage().timeouts().implicitlyWait(tlim,TimeUnit.SECONDS);
                       logger.info("qtest1");
@@ -385,17 +385,23 @@ public CallForwardingBusy(String path) {
                     	  {
                     		  login(driver,username,pwd);
                     	  }
+                    	  else
+                    	  {
+                    		  focusClick(driver,driver.findElement(By.id("settings-summary")),br); 
+                    	  }
                     	  logger.info("a");
-                    		int chk=0;
-              		      do{
-              		           Thread.sleep(1000);       
-              		          chk++;
-              		          System.out.println(chk);
-              		                }
-              		      while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
+                    	  Thread.sleep(10000);
+                        	int chk=0;
+                    	      do{
+                    	           Thread.sleep(1000);       
+                    	          chk++;
+                    	          System.out.println(chk);
+                    	                }
+                    	      while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
+                    	      Thread.sleep(5000);
     	  //selenium.open("https://voice.atgeng.timewarnercable.com/VZTTEST1");            
            // focusClick(driver,driver.findElement(By.linkText("Settings")),br);
-              		      Thread.sleep(5000);
+              		     
             focusClick(driver,driver.findElement(By.xpath("(//a[contains(text(),'(edit)')])[4]")),br);
             Thread.sleep(5000);
         	focusClick(driver,driver.findElement(By.xpath(".//*[@id='tab_3']/a")),br);

@@ -1180,10 +1180,12 @@ public Boolean selectFromDropDown(WebDriver driver,String locator, String value)
 	                }
 	      while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
 		
-		
+		Thread.sleep(2000);
 		if ((drive.findElements(By.id("modalContinueButton")).size() != 0)
 				&& (drive.findElement(By.id("modalContinueButton"))
-						.isDisplayed())) {
+						.isDisplayed()))
+		{
+			Thread.sleep(5000);
 			focusClick(driver,driver.findElement(By.id("modalContinueButton")),br);
 			return "Fail";
 					} 

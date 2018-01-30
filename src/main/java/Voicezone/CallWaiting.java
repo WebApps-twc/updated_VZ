@@ -107,7 +107,7 @@ public void execute(String br, WebDriver driver, String url, int loc, String nam
           	        pwd = sheet2.getCell(7, loc).getContents();
           	     
           	        tlim = Integer.parseInt(tlimit);
-          	        wb.close();
+          	       // wb.close();
 
           	     driver.manage().timeouts().implicitlyWait(tlim,TimeUnit.SECONDS); 
           	                            //TimeUnit.SECONDS);
@@ -119,15 +119,19 @@ public void execute(String br, WebDriver driver, String url, int loc, String nam
           	            {
           	      		  login(driver,username,pwd);
           	            }
-          	      	 int chk=0;
-       		      do{
-       		           Thread.sleep(1000);       
-       		          chk++;
-       		          System.out.println(chk);
-       		                }
-       		      while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
-          	      Thread.sleep(5000);
-
+          	      	  else
+          	      	  {
+          	      		 focusClick(driver,driver.findElement(By.id("settings-summary")),br); 
+          	      	  }
+          	      	Thread.sleep(10000);
+          	    	int chk=0;
+          		      do{
+          		           Thread.sleep(1000);       
+          		          chk++;
+          		          System.out.println(chk);
+          		                }
+          		      while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
+          		      Thread.sleep(5000);
     
       
       focusClick(driver, driver.findElement(By.xpath("(//a[contains(text(),'(edit)')])[5]")),br);

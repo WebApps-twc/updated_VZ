@@ -549,7 +549,7 @@ public String flowrunmaxtn(WebDriver driver,String br) throws Exception
                       username = sheet2.getCell(6, loc).getContents();
                       pwd = sheet2.getCell(7, loc).getContents();
                       tlim = Integer.parseInt(tlimit);
-                      wb.close();
+                     // wb.close();
 
                       driver.manage().timeouts().implicitlyWait(tlim,TimeUnit.SECONDS);
                       logger.info("qtest1");
@@ -558,16 +558,20 @@ public String flowrunmaxtn(WebDriver driver,String br) throws Exception
                     	  {
                     		  login(driver,username,pwd);
                     	  }
-                    	  logger.info("a");
-                    Thread.sleep(2000);	 
-                	  int chk=0;
-           		      do{
-            		           Thread.sleep(1000);       
-            		          chk++;
-           		          System.out.println(chk);
-           		                }
-            		      while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
-            		      Thread.sleep(5000);
+                    	  else
+                    	  {
+                    		  focusClick(driver,driver.findElement(By.id("settings-summary")),br); 
+                    	  }
+                    	  logger.info("a"); 
+                    Thread.sleep(10000);
+                  	int chk=0;
+              	      do{
+              	           Thread.sleep(1000);       
+              	          chk++;
+              	          System.out.println(chk);
+              	                }
+              	      while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
+              	      Thread.sleep(5000);
             		      focusClick(driver,driver.findElement(By.xpath("(//a[contains(text(),'(edit)')])[1]")),br);
                     	 Thread.sleep(5000);
                     	  focusClick(driver,driver.findElement(By.xpath("//div[@id='ContentRefresh']/ul/li[4]/a")),br);
@@ -615,11 +619,11 @@ public String flowrunmaxtn(WebDriver driver,String br) throws Exception
                                  schk=TNValidation(driver,br);
                                }
                                                 
-                               if(schk.equals("Pass"))
+                             /*  if(schk.equals("Pass"))
                                  {
                                    statusTracker(br,"","Verify maximum TN operations","","");
                                     schk=flowrunmaxtn(driver,br);
-                                  }
+                                  }*/
                                
                                int count2=driver.findElements(By.xpath("//html/body/div[3]/form/div/div[3]/div[2]/div/div/div/div/div[2]/div/div/div[5]/table/tbody/tr")).size();
                                if(count2==0)
@@ -638,7 +642,7 @@ public String flowrunmaxtn(WebDriver driver,String br) throws Exception
                                }
                                
                               
-                                                
+                               focusClick(driver,driver.findElement(By.id("mainCancelButton")),br);                              
            first=1;      
       }
                   

@@ -411,7 +411,7 @@ public class NotifybyText extends CommonFunctions {
                        username = sheet2.getCell(6, loc).getContents();
                        pwd = sheet2.getCell(7, loc).getContents();
                        tlim = Integer.parseInt(tlimit);
-                       wb.close();
+                      // wb.close();
 
                        driver.manage().timeouts().implicitlyWait(tlim,TimeUnit.SECONDS);
                        logger.info("qtest1");
@@ -420,16 +420,20 @@ public class NotifybyText extends CommonFunctions {
                     	   {
                     		   login(driver,username,pwd);
                     	   }
+                    	   else
+                    	   {
+                    		   focusClick(driver,driver.findElement(By.id("settings-summary")),br); 
+                    	   }
                     	   logger.info("a");
-                    	   int chk=0;
-                    	    do{
-                    	         Thread.sleep(1000);       
-                    	        chk++;
-                    	        System.out.println(chk);
-                    	              }
-                    	    while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
-                                   //  driver.findElement(By.linkText("Settings")).click();
-                                     Thread.sleep(5000);          
+                    	   Thread.sleep(10000);
+                    	    	int chk=0;
+                    		      do{
+                    		           Thread.sleep(1000);       
+                    		          chk++;
+                    		          System.out.println(chk);
+                    		                }
+                    		      while(driver.findElement(By.xpath("//*[@id='progress']")).isDisplayed());
+                    		      Thread.sleep(5000);
                                     driver.findElement(By.xpath("(//a[contains(text(),'(edit)')])[2]")).click();
                                     Thread.sleep(2000);
                                   /*  driver.findElement(By.xpath("//html/body/div[3]/form/div/div[2]/a")).click();
@@ -469,7 +473,7 @@ public class NotifybyText extends CommonFunctions {
                        		   if(schk.equals("Pass"))
                        		 schk=emailvalidation(driver,br);
                        		focusClick(driver,driver.findElement(By.id("mainCancelButton")),br);
-                                                first=1;      
+                            first=1;      
       }
       catch (Exception e)
       {
@@ -481,9 +485,11 @@ public class NotifybyText extends CommonFunctions {
     	exceptionHandler(br,e, driver);     
     }
     finally {
-                //statusTracker("end","","");
-      wb.close();
-     
+    	 wb.close();
+    	 System.out.println("Complete");
+    
+
+    
     }
   }
 
